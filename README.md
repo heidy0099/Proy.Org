@@ -5,8 +5,8 @@ Estudio de 240 reacciones químicas de derivados de ácidos: nitrilos, haluros d
 
  Autoras
 - Heidy Jissel Figueroa Martinez
-- Yuly Garcia
-- Gisell Contreras
+- Yuly Esperanza Garcia Gonzalez
+- Gisell Paola Contreras Lopez
 
 Objetivos
 - Recopilar y organizar 240 reacciones de derivados de ácidos
