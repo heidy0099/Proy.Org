@@ -43,13 +43,6 @@ Herramientas
 - CAS-SciFinder (fuente de datos numéricos)
 - GitHub (control de versiones)
 
-###  Justificación Analítica de la Gráfica de Dispersión (Propiedades Estructurales vs. Térmicas)
-
-Para evaluar el comportamiento de los compuestos del proyecto, se seleccionó una **Gráfica de Dispersión ($X$ vs. $Y$)** configurada con las siguientes variables específicas:
-
-* **Variable en el Eje X (Horizontal):** `PM_Sustrato` *(Peso Molecular / Masa Molar)*
-* **Variable en el Eje Y (Vertical):** `PE_Sustrato` *(Punto de Ebullición en °C)*
-* **Variable de Agrupación (Colores):** `Grupo Funcional` *(Categorías: Amidas, Nitrilos, Anhídridos)*
 
 ---
 
