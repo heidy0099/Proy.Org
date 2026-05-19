@@ -27,3 +27,25 @@ import plotly.graph_objects as go
 sns.set_theme(style="whitegrid")
 
 print("¡Todas las librerías han sido cargadas con éxito!")
+
+---
+
+ Carga de Archivos desde el Ordenador Local
+
+Este bloque de código es exclusivo para **Google Colab**. Permite abrir una ventana emergente en el navegador para seleccionar y subir cualquier archivo (como tus tablas de Excel `.xlsx` o archivos `.csv`) desde tu computadora directamente al entorno de ejecución.
+
+ Bloque de Código para Colab
+
+```python
+# ==============================================================================
+# CARGA DE ARCHIVOS LOCALES EN GOOGLE COLAB
+# ==============================================================================
+
+from google.colab import files
+
+# Abre el asistente para subir archivos desde tu equipo
+uploaded = files.upload()
+
+# Confirma la carga exitosa mostrando el nombre y el tamaño del archivo
+for fn in uploaded.keys():
+    print(f'User uploaded file "{fn}" with length {len(uploaded[fn])} bytes')
