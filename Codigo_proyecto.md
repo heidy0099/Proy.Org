@@ -28,7 +28,7 @@ sns.set_theme(style="whitegrid")
 
 print("¡Todas las librerías han sido cargadas con éxito!")
 
----
+***Codigo para cargar el archivo de reacciones
 
  Carga de Archivos desde el Ordenador Local
 
