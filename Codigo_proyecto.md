@@ -1,8 +1,8 @@
-# 🛠️ Repertorio de Código para Google Colab
+ Repertorio de Código para Google Colab
 
 Este bloque contiene todas las librerías fundamentales para el Análisis Exploratorio de Datos (EDA). Puedes copiar el bloque completo de la celda de abajo y pegarlo directamente en la primera celda de tu cuaderno de Google Colab.
 
-## 📦 Bloque de Importación de Librerías
+Bloque de Importación de Librerías
 
 ```python
 # ==============================================================================
