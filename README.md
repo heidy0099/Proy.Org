@@ -72,5 +72,7 @@ Proy.Org/
 
 ├── tabla_reacciones.xlsx
 
-└── analisis_grafico.ipynb
+├── tabla_explicacion_analisis_grafico.xlsx
+
+└── Codigo_analisis_grafico.ipynb
 
