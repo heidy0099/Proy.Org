@@ -1,13 +1,25 @@
-## 🛠️ Guía Paso a Paso del Código de Preprocesamiento
+Guia Paso a Paso del Codigo de Analisis Quimico
+Explicacion General
+Este script analiza datos quimicos de sustratos y productos, incluyendo propiedades como peso molecular, punto de ebullicion, pKa, toxicidad (LD50), y relaciones con grupos funcionales, tipos de reaccion, solventes y catalizadores.
 
-Este script se encarga de estructurar, limpiar y estandarizar la base de datos química antes de realizar cualquier análisis gráfico o estadístico.
+Tabla de Contenidos
+Importacion de Librerias y Carga de Datos
 
-### 1. Importación de Librerías y Carga de Archivos
-En esta sección se cargan las dependencias esenciales para la manipulación de datos (`pandas`, `numpy`) y visualización 
-(`matplotlib`, `seaborn`). Al estar diseñado para entornos de Google Colab, implementa 
-un módulo interactivo para subir el archivo `.csv` directamente desde el almacenamiento local.
+Limpieza de Datos Nulos
 
-```python
+Analisis 1: PM vs PE (Fuerzas de Dispersion)
+Analisis 2: Boxplot por Grupo Funcional
+Analisis 3: pKa por Grupo Funcional
+Analisis 4: Toxicidad LD50
+Analisis 5: Distribucion de la Muestra
+Analisis 6: PM Producto por Reaccion
+Analisis 7: Criticidad de Solventes
+Analisis 8: Clasificacion Ecologica
+Analisis 9: Cambio de Acidez
+Analisis 10: Catalizadores (Pareto)
+Analisis 11C: Perfil de Toxicidad
+
+Paso 1: Importacion de Librerias y Carga de Datos {#paso-1}
 # CARGAR DATOS - Ejecutar siempre al inicio
 import pandas as pd
 import numpy as np
@@ -19,32 +31,29 @@ import io
 # Interfaz interactiva para subir el archivo CSV
 uploaded = files.upload()
 
-# Lectura del archivo aplicando decodificación utf-8-sig para evitar caracteres extraños (\ufeff)
-df = pd.read_csv(io.BytesIO(uploaded[list(uploaded.keys())[0]]), delimiter=';', encoding='utf-8-sig')
+# Lectura del archivo con separador punto y coma
+df = pd.read_csv(io.BytesIO(uploaded[list(uploaded.keys())[0]]), 
+                 delimiter=';', 
+                 encoding='utf-8-sig')
 
-# Normalización de los nombres de las columnas eliminando espacios en blanco innecesarios
+# Limpiar nombres de columnas (eliminar espacios al inicio/final)
 df.columns = df.columns.str.strip()
 
-## 🔬 Análisis 1: Relación entre Peso Molecular y Punto de Ebullición (Fuerzas de London)
+print(f"Archivo cargado: {len(df)} filas, {len(df.columns)} columnas")
+print(f"Columnas disponibles: {list(df.columns)}")
 
-Este módulo evalúa cuantitativamente cómo influye la masa molecular de los sustratos en sus propiedades
-macroscópicas térmicas (Punto de Ebullición), basándose en los principios de las fuerzas
-intermoleculares de dispersión de London.
+Explicacion:
 
-### 🧱 Paso 1: Filtrado y Control de Calidad de Datos
+Importa las librerias necesarias para analisis de datos y graficos
 
-##df.dropna(...) elimina del análisis cualquier fila que no tenga registrado
-el Peso Molecular o el Punto de Ebullición, evitando que el script falle por datos ausentes.
-```python
-plot_df = df.dropna(subset=['PM_Sustrato', 'PE_Sustrato °C'])
-plot_df = plot_df[(plot_df['PM_Sustrato'] >= 40) & (plot_df['PM_Sustrato'] <= 300)]
-plot_df = plot_df[(plot_df['PE_Sustrato °C'] >= 20) & (plot_df['PE_Sustrato °C'] <= 400)]
+Sube un archivo CSV desde el ordenador local
 
-### 🧱 Paso 2:
-np.polyfit(..., 1) calcula mediante el método de mínimos cuadrados la ecuación de la línea recta
-($y = mx + b$) que mejor representa la tendencia de los datos. Extrae la pendiente
-($m$, que indica cuántos grados Celsius aumenta el PE por cada g/mol de masa) y la ordenada al origen
-($b$).
-z = np.polyfit(plot_df['PM_Sustrato'], plot_df['PE_Sustrato °C'], 1)
-p = np.poly1d(z)
-x_line = np.linspace(plot_df['PM_Sustrato'].min(), plot_df['PM_Sustrato'].max(), 100)
+Lee el archivo con separador punto y coma (;)
+
+Limpia los nombres de las columnas eliminando espacios en blanco
+
+Para modificar:
+
+Cambiar delimiter=';' a delimiter=',' si el archivo usa comas
+
+Cambiar encoding='utf-8-sig' a encoding='latin-1' si hay problemas con caracteres
