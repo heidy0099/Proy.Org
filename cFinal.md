@@ -1,8 +1,4 @@
-¡Excelente trabajo con el script! Está muy bien estructurado, limpio y cubre desde la limpieza de datos hasta análisis avanzados de química sostenible y toxicidad.
 
-A continuación, presento la documentación completa de tu proyecto en **Markdown**, respetando de forma intacta cada línea de tu código final y explicando detalladamente el propósito científico y técnico de cada bloque.
-
----
 
 # Proyecto 3: Derivados de Ácido — Documentación y Código Final
 
@@ -62,7 +58,7 @@ print(f"Columnas disponibles: {list(df.columns)}")
 
 ---
 
-## 🧹 Paso 2: Limpieza de Datos Nulos y Tipado Numérico
+##  Paso 2: Limpieza de Datos Nulos y Tipado Numérico
 
 Para garantizar la integridad del análisis, se estandarizan las múltiples representaciones de datos ausentes o nulos (como cadenas de texto `'NULL'`, `'nan'` o espacios vacíos) reemplazándolos por `np.nan`. Además, se implementa la función `clean_float` para transformar las variables clave a formato numérico, descartando valores inconsistentes menores o iguales a cero.
 
@@ -114,7 +110,7 @@ print(f"Filas restantes: {len(df)}")
 
 ---
 
-## 📈 Análisis 1: Peso Molecular vs. Punto de Ebullición (Fuerzas de Dispersión)
+##  Análisis 1: Peso Molecular vs. Punto de Ebullición (Fuerzas de Dispersión)
 
 **¿Qué se hizo?** Se evalúa la relación entre el **Peso Molecular (PM)** y el **Punto de Ebullición (PE)** del sustrato mediante un gráfico de dispersión. El código calcula el *Coeficiente de Correlación de Pearson ($r$)* y traza una recta de regresión lineal para demostrar cuantitativamente cómo influyen las fuerzas de dispersión de London (polarizabilidad de la nube electrónica) en el cambio de estado físico de las moléculas.
 
@@ -242,7 +238,7 @@ else:
 
 ---
 
-## 📊 Análisis 2: Boxplot por Grupo Funcional (Fuerzas Intermoleculares)
+## Análisis 2: Boxplot por Grupo Funcional (Fuerzas Intermoleculares)
 
 **¿Qué se hizo?** Se genera un diagrama de cajas y bigotes (*Boxplot*) comparando el punto de ebullición según la familia química o grupo funcional. Este análisis clasifica los compuestos según la naturaleza de sus interacciones intermoleculares: puentes de hidrógeno (altos PE como amidas y ácidos), dipolo-dipolo (valores intermedios como ésteres y cetonas) o fuerzas puras de London (bajos PE como alcanos).
 
@@ -340,7 +336,7 @@ else:
 
 ---
 
-## 🧪 Análisis 3: pKa Promedio por Grupo Funcional (Acidez y Resonancia)
+##  Análisis 3: pKa Promedio por Grupo Funcional (Acidez y Resonancia)
 
 **¿Qué se hizo?** Se analizan los valores promedio de $pK_a$ para categorizar la acidez intrínseca de los sustratos. El script genera un gráfico de barras ordenadas de forma descendente e introduce una línea de referencia técnica ($pK_a = 16$, representativo de amidas) para destacar cómo la deslocalización por resonancia estabiliza o desestabiliza las bases conjugadas de cada familia química.
 
@@ -434,7 +430,7 @@ else:
 
 ---
 
-## ⚠️ Análisis 4: Toxicidad $LD_{50}$ (Evaluación de Riesgo Ambiental)
+##  Análisis 4: Toxicidad $LD_{50}$ (Evaluación de Riesgo Ambiental)
 
 **¿Qué se hizo?** Para manejar escalas de toxicidad altamente dispersas, los datos de dosis letal media ($LD_{50}$) se transforman a escala logarítmica ($\log_{10}(LD_{50})$). Se grafican las medias por grupo funcional aplicando un código de colores condicional (semáforo de riesgo): rojo oscuro para compuestos muy tóxicos, naranja para niveles intermedios y verde para baja toxicidad, automatizando las alertas de seguridad de los reactivos de partida.
 
@@ -538,7 +534,7 @@ else:
 
 ---
 
-## 🧮 Análisis 5: Distribución Estructural de la Muestra
+##  Análisis 5: Distribución Estructural de la Muestra
 
 **¿Qué se hizo?** Se realiza una auditoría de la composición de la base de datos a través de una ventana gráfica doble (*subplots*). A la izquierda, un gráfico de barras cuantitativo que detalla las frecuencias absolutas; a la derecha, un gráfico de pastel (*Pie chart*) que ilustra los porcentajes relativos de participación de cada grupo funcional en la muestra.
 
@@ -611,7 +607,7 @@ else:
 
 ---
 
-## 🧬 Análisis 6: Efecto del Mecanismo de Reacción en el Peso Molecular del Producto
+##  Análisis 6: Efecto del Mecanismo de Reacción en el Peso Molecular del Producto
 
 **¿Qué se hizo?** Evalúa macroscópicamente los mecanismos sintéticos mediante la masa molecular promedio de sus productos obtenidos. Permite verificar de manera automatizada las reglas teóricas de la química orgánica: procesos moleculares acumulativos (como condensaciones o adiciones) frente a procesos degradativos o de partición (como hidrólisis o reducciones).
 
@@ -689,7 +685,7 @@ else:
 
 ---
 
-## 🦺 Análisis 7: Criticidad y Riesgo por Uso de Solventes en Reacciones
+## Análisis 7: Criticidad y Riesgo por Uso de Solventes en Reacciones
 
 **¿Qué se hizo?** Se implementa un modelo de penalización o criticidad basado en la peligrosidad de los solventes principales de la reacción. Mapea categorías de riesgo (Baja, Media, Alta) y calcula un índice ponderado ponderando la severidad toxicológica. Las reacciones se despliegan en un gráfico doble: barras apiladas de proporciones relativas a la izquierda, y un ranking de criticidad horizontal a la derecha con umbrales definidos.
 
@@ -892,7 +888,7 @@ else:
 
 ---
 
-## 🟢 Análisis 8: Clasificación Ecológica de Solventes (Química Verde)
+##  Análisis 8: Clasificación Ecológica de Solventes (Química Verde)
 
 **¿Qué se hizo?** Vinculado estrechamente a los principios de la *Química Verde*, este bloque categoriza minuciosamente los solventes por familias estructurales y su impacto ambiental (Agua, Alcoholes, Éteres, Apróticos Polares y Aromáticos/Halogenados). A través de una tabla cruzada normalizada (`pd.crosstab`), se grafican barras 100% apiladas para identificar visualmente qué tipos de reacción cumplen con perfiles ecológicamente amigables.
 
@@ -1016,7 +1012,7 @@ else:
 
 ---
 
-## 📉 Análisis 9: Variación Terapéutica y de Acidez en la Reacción ($\Delta pK_a$)
+##  Análisis 9: Variación Terapéutica y de Acidez en la Reacción ($\Delta pK_a$)
 
 **¿Qué se hizo?** Mide el diferencial termodinámico de acidez calculando $\Delta pK_a = pK_{a,\text{producto}} - pK_{a,\text{sustrato}}$. Utiliza un gráfico de dispersión cruzado con una línea discontinua de identidad ($y = x$). Los puntos que caen por encima denotan una pérdida de acidez (incremento de basicidad del producto), mientras que los que se ubican por debajo marcan una ganancia en la fuerza ácida tras la transformación química.
 
@@ -1127,7 +1123,7 @@ else:
 
 ---
 
-## 🏆 Análisis 10: Catalizadores más Utilizados y Curva de Pareto (Regla 80/20)
+##  Análisis 10: Catalizadores más Utilizados y Curva de Pareto (Regla 80/20)
 
 **¿Qué se hizo?** Aplica control de procesos estadísticos para la optimización de síntesis. El bloque limpia la columna de catalizadores y despliega una gráfica compuesta: barras de frecuencia simple a la izquierda y un **Gráfico de Pareto** a la derecha. Este último superpone una curva de porcentaje acumulado y una línea umbral del 80% para validar si una pequeña fracción de catalizadores específicos domina la mayor parte de la base de datos de reacciones.
 
@@ -1275,7 +1271,7 @@ else:
 
 ---
 
-## 🟥 Análisis 11C: Perfil Integral de Toxicidad de la Base de Datos
+##  Análisis 11C: Perfil Integral de Toxicidad de la Base de Datos
 
 **¿Qué se hizo?** Este bloque final consolida la seguridad en el laboratorio generando el perfil de riesgo global de la base de datos. Divide los sustratos en rangos estrictos basados en su valor real de $LD_{50}$ (Muy Tóxico, Tóxico, Baja Toxicidad). Paralelamente, cruza estos rangos con la columna de grupos funcionales, identificando mediante barras apiladas absolutas cuáles familias químicas aportan el mayor riesgo toxicológico global.
 
@@ -1398,4 +1394,26 @@ else:
     else:
         print("  La base de datos no contiene compuestos extremadamente tóxicos")
 }
+
+### Guía de Modificación de Parámetros y Estilos
+
+### Guía de Modificación de Parámetros y Estilos
+
+| Elemento | Ubicación en el Código | Opciones de Cambio |
+| :--- | :--- | :--- |
+| **Colores de puntos** | `POINT_COLOR = 'steelblue'` | `'red'`, `'green'`, `'purple'`, `'#FF5733'` |
+| **Colores de barras** | `BAR_COLOR = 'coral'` | `'skyblue'`, `'seagreen'`, `'darkorange'` |
+| **Paletas de colores** | `COLOR_PALETTE = 'Set2'` | `'viridis'`, `'coolwarm'`, `'Blues'`, `'RdYlGn'` |
+| **Tamaño de figura** | `FIG_SIZE = (12, 8)` | `(10, 6)`, `(14, 10)` |
+| **Transparencia** | `POINT_ALPHA = 0.7` | `0.3` (más transparente), `1.0` (opaco) |
+| **Rango PM** | `PM_MIN, PM_MAX = 40, 300` | `50, 250` (más estrecho), `30, 400` (más amplio) |
+| **Rango PE** | `PE_MIN, PE_MAX = 20, 400` | `0, 350`, `50, 500` |
+| **Rango pKa** | `PKA_MIN, PKA_MAX = 0, 40` | `0, 30`, `0, 50` |
+| **Umbral toxicidad (log)** | `UMBRAL_MUY_TOXICO = 1.7` | `1.0` (LD50=10), `2.0` (LD50=100) |
+| **Umbral LD50** | `UMBRAL_MUY_TOXICO = 50` | `25`, `100` según criterio |
+| **Línea Pareto** | `PARETO_LINE = 80` | `70`, `90` |
+| **Rotación etiquetas** | `ROTATION = 45` | `0` (horizontal), `90` (vertical) |
+| **Estilo línea tendencia** | `TREND_STYLE = '--'` | `'-'` (sólido), `':'` (punteado), `'-.'` (guión-punto) |
+| **Número top catalizadores** | `TOP_N = 10` | `5`, `15`, `20` |
+| **Ponderaciones criticidad** | `PESO_ALTA = 3`, `PESO_MEDIA = 2`, `PESO_BAJA = 1` | `5`, `3`, `1` (más peso a toxicidad alta) |
 
