@@ -1395,7 +1395,7 @@ else:
         print("  La base de datos no contiene compuestos extremadamente tóxicos")
 }
 
-### Guía de Modificación de Parámetros y Estilos
+
 
 ### Guía de Modificación de Parámetros y Estilos
 
