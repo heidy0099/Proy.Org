@@ -66,7 +66,8 @@ Herramientas
 | **pKa_Sustrato** <br>vs<br> **pKa_Producto** | **Evaluación del Cambio de Acidez en la Reacción:** Muestra el salto de pH y reactividad antes y después del proceso químico. Por ejemplo, cómo un nitrilo o amida se transforma en una amina o ácido carboxílico, alterando el carácter ácido-base del sistema. | **Gráfico de Dispersión (X vs Y)** o **Gráfico de Líneas Correlativas** |
 | **Nombre_Catalizador 1** <br>vs<br> **Cantidad_Veces_Utilizado** | **Análisis de Recurrencia y Optimización del Medio:** Identifica cuáles agentes catalíticos específicos son los más empleados a lo largo del proyecto para acelerar las transformaciones químicas. Este conteo de frecuencia es clave para priorizar estudios de costos, evaluar la viabilidad de recuperación/reciclaje del catalizador y optimizar las condiciones estándar del proceso. | **Gráfico de Barras Simples (Ordenado de mayor a menor)** o **Gráfico de Pareto** |
 | **LD50_Reactivos** <br>vs<br> **LD50_Productos** | **Variación del Perfil de Toxicidad y Seguridad del Proceso:** Evalúa el cambio en la dosis letal media de los grupos funcionales ($LD_{50}$) antes y después de la reacción. Su propósito es determinar si el proceso incrementa el riesgo químico o si, por el contrario, se avanza hacia productos más seguros y biocompatibles, lo cual es crítico para el diseño de protocolos de seguridad industrial, manejo de residuos y regulaciones ambientales. | **Gráfico de Barras** (Comparativo o de Diferencias) |
-Estructura del Repositorio
+
+|Estructura del Repositorio
 Proy.Org/
 
 ├── README.md
@@ -75,5 +76,5 @@ Proy.Org/
 
 ├── tabla_explicacion_analisis_grafico.xlsx
 
-└── Codigo_analisis_grafico.ipynb
+└── Codigo_analisis_grafico.ipynb|
 
