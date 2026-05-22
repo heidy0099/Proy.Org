@@ -1,0 +1,74 @@
+Guía Completa del Código de Análisis Químico
+Proyecto 3: Derivados de Ácido
+Este documento proporciona una guía paso a paso del código de análisis de datos químicos, incluyendo explicaciones detalladas, ejemplos de modificación y correcciones de errores comunes.
+
+Tabla de Contenidos
+Importación de Librerías y Carga de Datos
+
+Limpieza de Datos Nulos
+
+Análisis 1: Fuerzas de Dispersión de London
+
+Análisis 2: Fuerzas Intermoleculares por Familia
+
+Análisis 3: Acidez y Estabilidad por Resonancia
+
+Análisis 4: Evaluación de Riesgo Ambiental
+
+Análisis 5: Distribución de la Muestra
+
+Análisis 6: Efecto del Mecanismo en el Producto
+
+Análisis 7: Criticidad de Solventes por Reacción
+
+Análisis 8: Clasificación Ecológica de Solventes
+
+Análisis 9: Cambio de Acidez en la Reacción
+
+Análisis 10: Catalizadores Más Utilizados (Corregido)
+
+Análisis 11C: Perfil de Toxicidad
+
+Tabla de Modificaciones Comunes
+
+Instrucciones para GitHub
+
+1. Importación de Librerías y Carga de Datos
+Explicación
+Esta sección importa todas las librerías necesarias para el análisis y carga el archivo CSV desde el ordenador local. Está diseñada para Google Colab pero puede adaptarse para otros entornos.
+
+Código
+python
+# ============================================
+# PASO 1: IMPORTACION DE LIBRERIAS Y CARGA
+# ============================================
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from google.colab import files
+import io
+
+# Configuración de estilo de gráficos
+plt.style.use('seaborn-v0_8-darkgrid')
+sns.set_palette("Set2")
+
+# Cargar archivo desde el ordenador
+print("Por favor, selecciona el archivo CSV:")
+uploaded = files.upload()
+
+# Leer el archivo con separador punto y coma
+df = pd.read_csv(
+    io.BytesIO(uploaded[list(uploaded.keys())[0]]),
+    delimiter=';',
+    encoding='utf-8-sig'
+)
+
+# Limpiar nombres de columnas
+df.columns = df.columns.str.strip()
+
+print("Archivo cargado exitosamente")
+print(f"Filas: {len(df)}")
+print(f"Columnas: {len(df.columns)}")
+print(f"Columnas disponibles: {list(df.columns)}")
