@@ -1266,8 +1266,7 @@ else:
 Explicación
 Evalúa la distribución general de toxicidad de los sustratos en la base de datos.
 
-Código
-python
+
 # ============================================
 # ANALISIS 11C: Perfil de Toxicidad de la Base de Datos
 # ============================================
@@ -1386,19 +1385,23 @@ else:
     else:
         print("  La base de datos no contiene compuestos extremadamente tóxicos")
 14. Tabla de Modificaciones Comunes
-Elemento	Ubicación	Opciones de Cambio
-Colores de puntos	POINT_COLOR = 'steelblue'	'red', 'green', 'purple', '#FF5733'
-Colores de barras	BAR_COLOR = 'coral'	'skyblue', 'seagreen', 'darkorange'
-Paletas de colores	COLOR_PALETTE = 'Set2'	'viridis', 'coolwarm', 'Blues', 'RdYlGn'
-Tamaño de figura	FIG_SIZE = (12, 8)	(10, 6), (14, 10)
-Transparencia	POINT_ALPHA = 0.7	0.3 (más transparente), 1.0 (opaco)
-Rango PM	PM_MIN, PM_MAX = 40, 300	50, 250 (más estrecho), 30, 400 (más amplio)
-Rango PE	PE_MIN, PE_MAX = 20, 400	0, 350, 50, 500
-Rango pKa	PKA_MIN, PKA_MAX = 0, 40	0, 30, 0, 50
-Umbral toxicidad (log)	UMBRAL_MUY_TOXICO = 1.7	1.0 (LD50=10), 2.0 (LD50=100)
-Umbral LD50	UMBRAL_MUY_TOXICO = 50	25, 100 según criterio
-Línea Pareto	PARETO_LINE = 80	70, 90
-Rotación etiquetas	ROTATION = 45	0 (horizontal), 90 (vertical)
-Estilo línea tendencia	TREND_STYLE = '--'	'-' (sólido), ':' (punteado), '-.' (guión-punto)
-Número top catalizadores	TOP_N = 10	5, 15, 20
-Ponderaciones criticidad	PESO_ALTA = 3, PESO_MEDIA = 2, PESO_BAJA = 1	5, 3, 1 (más peso a toxicidad alta)
+
+### Guía de Modificación de Parámetros y Estilos
+
+| Elemento | Ubicación en el Código | Opciones de Cambio |
+| :--- | :--- | :--- |
+| **Colores de puntos** | `POINT_COLOR = 'steelblue'` | `'red'`, `'green'`, `'purple'`, `'#FF5733'` |
+| **Colores de barras** | `BAR_COLOR = 'coral'` | `'skyblue'`, `'seagreen'`, `'darkorange'` |
+| **Paletas de colores** | `COLOR_PALETTE = 'Set2'` | `'viridis'`, `'coolwarm'`, `'Blues'`, `'RdYlGn'` |
+| **Tamaño de figura** | `FIG_SIZE = (12, 8)` | `(10, 6)`, `(14, 10)` |
+| **Transparencia** | `POINT_ALPHA = 0.7` | `0.3` (más transparente), `1.0` (opaco) |
+| **Rango PM** | `PM_MIN, PM_MAX = 40, 300` | `50, 250` (más estrecho), `30, 400` (más amplio) |
+| **Rango PE** | `PE_MIN, PE_MAX = 20, 400` | `0, 350`, `50, 500` |
+| **Rango pKa** | `PKA_MIN, PKA_MAX = 0, 40` | `0, 30`, `0, 50` |
+| **Umbral toxicidad (log)** | `UMBRAL_MUY_TOXICO = 1.7` | `1.0` (LD50=10), `2.0` (LD50=100) |
+| **Umbral LD50** | `UMBRAL_MUY_TOXICO = 50` | `25`, `100` según criterio |
+| **Línea Pareto** | `PARETO_LINE = 80` | `70`, `90` |
+| **Rotación etiquetas** | `ROTATION = 45` | `0` (horizontal), `90` (vertical) |
+| **Estilo línea tendencia** | `TREND_STYLE = '--'` | `'-'` (sólido), `':'` (punteado), `'-.'` (guión-punto) |
+| **Número top catalizadores** | `TOP_N = 10` | `5`, `15`, `20` |
+| **Ponderaciones criticidad** | `PESO_ALTA = 3`, `PESO_MEDIA = 2`, `PESO_BAJA = 1` | `5`, `3`, `1` (más peso a toxicidad alta) |
