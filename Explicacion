@@ -82,8 +82,7 @@ Estilo gráfico	plt.style.use('seaborn-v0_8-darkgrid')	'ggplot', 'fivethirtyeigh
 Explicación
 Esta función reemplaza valores vacíos, ceros y cadenas inválidas por NaN (Not a Number). Convierte cadenas numéricas a formato float y solo permite valores positivos.
 
-Código
-python
+
 # ============================================
 # PASO 2: LIMPIEZA DE DATOS NULOS
 # ============================================
@@ -135,8 +134,7 @@ Valores a reemplazar	Lista actual	Añadir más cadenas vacías
 Explicación
 Este análisis grafica la relación entre el Peso Molecular (PM) y el Punto de Ebullición (PE) para demostrar las fuerzas de dispersión de London. A mayor masa molar, mayor polarizabilidad y por lo tanto mayor punto de ebullición.
 
-Código
-python
+
 # ============================================
 # ANALISIS 1: PM vs PE (Fuerzas de Dispersion)
 # ============================================
@@ -274,8 +272,7 @@ PM_MIN, PM_MAX = 30, 400      # Rango más amplio
 Explicación
 Este análisis utiliza diagramas de caja (boxplots) para comparar los puntos de ebullición entre diferentes grupos funcionales. Permite visualizar qué familias tienen interacciones intermoleculares más fuertes.
 
-Código
-python
+
 # ============================================
 # ANALISIS 2: Boxplot por Grupo Funcional
 # ============================================
@@ -378,8 +375,7 @@ COLOR_PALETTE = 'dark'         # Colores oscuros
 Explicación
 Compara el pKa promedio entre diferentes grupos funcionales. Un pKa alto indica menor acidez. Las amidas tienen alto pKa debido a la deslocalización del par electrónico del nitrógeno.
 
-Código
-python
+
 # ============================================
 # ANALISIS 3: pKa por Grupo Funcional
 # ============================================
@@ -468,8 +464,7 @@ else:
 Explicación
 Evalúa la toxicidad de los sustratos usando valores de LD50 en escala logarítmica. Menor LD50 = mayor toxicidad.
 
-Código
-python
+
 # ============================================
 # ANALISIS 4: Toxicidad LD50 por Grupo Funcional
 # ============================================
@@ -568,8 +563,7 @@ else:
 Explicación
 Visualiza la distribución de grupos funcionales en la base de datos mediante un gráfico de barras y un gráfico de torta (pie chart).
 
-Código
-python
+
 # ============================================
 # ANALISIS 5: Distribución de la Muestra
 # ============================================
@@ -637,8 +631,8 @@ else:
 Explicación
 Compara el peso molecular promedio del producto según el tipo de reacción química.
 
-Código
-python
+
+
 # ============================================
 # ANALISIS 6: PM Producto por Tipo de Reacción
 # ============================================
@@ -711,8 +705,8 @@ else:
 Explicación
 Evalúa qué reacciones utilizan solventes más tóxicos y calcula un puntaje de criticidad.
 
-Código
-python
+
+
 # ============================================
 # ANALISIS 7: Criticidad de Solventes por Reacción
 # ============================================
@@ -910,8 +904,8 @@ else:
 Explicación
 Muestra qué tipos de solventes (verdes, moderados, tóxicos) se utilizan en cada tipo de reacción.
 
-Código
-python
+
+
 # ============================================
 # ANALISIS 8: Clasificación Ecológica de Solventes
 # ============================================
@@ -1030,8 +1024,8 @@ else:
 Explicación
 Compara el pKa del sustrato vs el pKa del producto para ver cómo cambia la acidez después de la reacción.
 
-Código
-python
+
+
 # ============================================
 # ANALISIS 9: Cambio de Acidez en la Reacción
 # ============================================
@@ -1137,8 +1131,8 @@ else:
 Explicación
 Identifica los catalizadores más frecuentes en la base de datos y aplica el principio de Pareto (80/20).
 
-Código
-python
+
+
 # ============================================
 # ANALISIS 10: Catalizadores Más Utilizados (Pareto)
 # ============================================
@@ -1281,8 +1275,8 @@ else:
 Explicación
 Evalúa la distribución general de toxicidad de los sustratos en la base de datos.
 
-Código
-python
+
+
 # ============================================
 # ANALISIS 11C: Perfil de Toxicidad de la Base de Datos
 # ============================================
@@ -1402,6 +1396,7 @@ else:
         print("  La base de datos no contiene compuestos extremadamente tóxicos")
 
 14. Tabla de Modificaciones Comunes
+
 Elemento	Ubicación	Opciones de Cambio
 Colores	POINT_COLOR = 'steelblue', BAR_COLOR = 'coral'	'red', 'green', 'purple', '#FF5733'
 Paletas	COLOR_PALETTE = 'Set2'	'viridis', 'coolwarm', 'Blues', 'RdYlGn'
