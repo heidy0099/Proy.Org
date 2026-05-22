@@ -6,7 +6,7 @@ Este documento técnico detalla el pipeline de análisis de datos químicos impl
 
 ---
 
-## 🛠️ Paso 1: Importación de Librerías y Carga de Datos
+##  Paso 1: Importación de Librerías y Carga de Datos
 
 En este bloque inicial se configuran las dependencias del proyecto. Se utiliza **Pandas** y **NumPy** para la manipulación analítica, junto con **Matplotlib** y **Seaborn** para la generación de gráficos estadísticos con un estilo visual limpio (`seaborn-v0_8-darkgrid`). La carga se realiza de manera dinámica en el entorno de Google Colab.
 
