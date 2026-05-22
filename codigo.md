@@ -1,33 +1,17 @@
 Guía Completa del Código de Análisis Químico
-🧪 Proyecto 3: Derivados de Ácido
+ Proyecto 3: Derivados de Ácido
 Este documento proporciona una guía paso a paso del código de análisis de datos químicos, incluyendo explicaciones detalladas, ejemplos de modificación y correcciones de errores comunes.
 
-📑 Tabla de Contenidos
-N°	Sección	Descripción
-1	Importación de Librerías	Carga de datos y librerías
-2	Limpieza de Datos	Limpieza y estandarización
-3	Análisis 1: London	PM vs PE
-4	Análisis 2: Boxplot	Grupos funcionales
-5	Análisis 3: pKa	Acidez por resonancia
-6	Análisis 4: Toxicidad	LD50 por grupo
-7	Análisis 5: Distribución	Distribución de la muestra
-8	Análisis 6: Producto	PM por reacción
-9	Análisis 7: Solventes	Criticidad de solventes
-10	Análisis 8: Ecología	Solventes verdes
-11	Análisis 9: Acidez	Cambio de pKa
-12	Análisis 10: Catalizadores	Pareto de catalizadores
-13	Análisis 11C: Toxicidad	Perfil de toxicidad
-14	Modificaciones	Tabla de cambios
-15	Instrucciones	Instrucciones de uso
-1. 📥 Importación de Librerías y Carga de Datos
-Explicación
-Esta sección importa todas las librerías necesarias para el análisis y carga el archivo CSV desde el ordenador local. Está diseñada para Google Colab pero puede adaptarse para otros entornos.
+# Contenido
 
-Código
-python
+
+
+
 # ============================================
 # PASO 1: IMPORTACION DE LIBRERIAS Y CARGA
 # ============================================
+Esta sección importa todas las librerías necesarias para el análisis y carga el archivo CSV desde el ordenador local. Está diseñada para Google Colab pero puede adaptarse para otros entornos.
+
 
 import pandas as pd
 import numpy as np
@@ -52,23 +36,29 @@ df = pd.read_csv(
 )
 
 # Limpiar nombres de columnas
+# Análisis de Datos - Limpieza y Preparación
+
+## Código de Carga y Limpieza de Datos
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Cargar el archivo CSV
+df = pd.read_csv('tu_archivo.csv', delimiter=';', encoding='utf-8-sig')
+
+# Limpiar nombres de columnas (eliminar espacios)
 df.columns = df.columns.str.strip()
 
+# Información del archivo cargado
 print("Archivo cargado exitosamente")
 print(f"Filas: {len(df)}")
 print(f"Columnas: {len(df.columns)}")
 print(f"Columnas disponibles: {list(df.columns)}")
-Modificaciones Posibles
-Parámetro	Valor Original	Opciones de Cambio
-Separador	delimiter=';'	delimiter=',' (CSV estándar)
-Codificación	encoding='utf-8-sig'	encoding='latin-1', encoding='utf-8'
-Estilo gráfico	plt.style.use('seaborn-v0_8-darkgrid')	'ggplot', 'fivethirtyeight', 'default'
-2. 🧹 Limpieza de Datos Nulos
 Explicación
 Esta función reemplaza valores vacíos, ceros y cadenas inválidas por NaN (Not a Number). Convierte cadenas numéricas a formato float y solo permite valores positivos.
 
-Código
-python
+
 # ============================================
 # PASO 2: LIMPIEZA DE DATOS NULOS
 # ============================================
@@ -116,12 +106,11 @@ Parámetro	Valor Original	Opciones de Cambio
 Permitir ceros	x > 0	x >= 0 (incluir ceros)
 Columnas numéricas	COLUMNAS_NUMERICAS	Añadir o quitar nombres
 Valores a reemplazar	Lista actual	Añadir más cadenas vacías
-3. 📈 Análisis 1: Fuerzas de Dispersión de London
+3.  Análisis 1: Fuerzas de Dispersión de London
 Explicación
 Este análisis grafica la relación entre el Peso Molecular (PM) y el Punto de Ebullición (PE) para demostrar las fuerzas de dispersión de London. A mayor masa molar, mayor polarizabilidad y por lo tanto mayor punto de ebullición.
 
-Código
-python
+
 # ============================================
 # ANALISIS 1: PM vs PE (Fuerzas de Dispersion)
 # ============================================
@@ -255,7 +244,7 @@ POINT_SIZE = 40               # Puntos más pequeños
 # Cambiar rango de datos
 PM_MIN, PM_MAX = 50, 250      # Rango más estrecho
 PM_MIN, PM_MAX = 30, 400      # Rango más amplio
-4. 📊 Análisis 2: Fuerzas Intermoleculares por Familia
+4. Análisis 2: Fuerzas Intermoleculares por Familia
 Explicación
 Este análisis utiliza diagramas de caja (boxplots) para comparar los puntos de ebullición entre diferentes grupos funcionales. Permite visualizar qué familias tienen interacciones intermoleculares más fuertes.
 
@@ -263,8 +252,7 @@ Objetivo: Determinar qué grupos funcionales presentan mayores puntos de ebullic
 
 Resultado esperado: Los grupos con capacidad de formar puentes de hidrógeno (amidas, ácidos carboxílicos, alcoholes) deberían mostrar puntos de ebullición más altos que aquellos que solo presentan fuerzas de London (alcanos) o interacciones dipolo-dipolo (ésteres, cetonas).
 
-Código
-python
+
 # ============================================
 # ANALISIS 2: Boxplot por Grupo Funcional
 # ============================================
@@ -363,12 +351,11 @@ Paleta	Descripción
 'pastel'	Colores suaves (categórico)
 'dark'	Colores oscuros (categórico)
 'Set2'	Colores equilibrados (categórico)
-5. 🧪 Análisis 3: Acidez y Estabilidad por Resonancia
+5.  Análisis 3: Acidez y Estabilidad por Resonancia
 Explicación
 Compara el pKa promedio entre diferentes grupos funcionales. Un pKa alto indica menor acidez. Las amidas tienen alto pKa debido a la deslocalización del par electrónico del nitrógeno.
 
-Código
-python
+
 # ============================================
 # ANALISIS 3: pKa por Grupo Funcional
 # ============================================
@@ -453,12 +440,11 @@ else:
         print("  La resonancia estabiliza la base conjugada")
     else:
         print(f"Datos insuficientes: {len(plot_df)} compuestos (mínimo 4)")
-6. ⚠️ Análisis 4: Evaluación de Riesgo Ambiental
+6. Análisis 4: Evaluación de Riesgo Ambiental
 Explicación
 Evalúa la toxicidad de los sustratos usando valores de LD50 en escala logarítmica. Menor LD50 = mayor toxicidad.
 
-Código
-python
+
 # ============================================
 # ANALISIS 4: Toxicidad LD50 por Grupo Funcional
 # ============================================
@@ -553,12 +539,11 @@ else:
             print("  La mayoría de los compuestos presentan baja toxicidad")
     else:
         print(f"Datos insuficientes: {len(plot_df)} compuestos (mínimo 4)")
-7. 📊 Análisis 5: Distribución de la Muestra
+7. Análisis 5: Distribución de la Muestra
 Explicación
 Visualiza la distribución de grupos funcionales en la base de datos mediante un gráfico de barras y un gráfico de torta (pie chart).
 
-Código
-python
+
 # ============================================
 # ANALISIS 5: Distribución de la Muestra
 # ============================================
@@ -622,12 +607,11 @@ else:
     print(f"Número de grupos funcionales: {len(counts)}")
     print(f"Grupo más representado: {counts.index[0]} ({counts.iloc[0]} compuestos, {100*counts.iloc[0]/len(plot_df):.1f}%)")
     print(f"Grupo menos representado: {counts.index[-1]} ({counts.iloc[-1]} compuestos, {100*counts.iloc[-1]/len(plot_df):.1f}%)")
-8. ⚗️ Análisis 6: Efecto del Mecanismo en el Producto
+8.  Análisis 6: Efecto del Mecanismo en el Producto
 Explicación
 Compara el peso molecular promedio del producto según el tipo de reacción química.
 
-Código
-python
+
 # ============================================
 # ANALISIS 6: PM Producto por Tipo de Reacción
 # ============================================
@@ -696,12 +680,11 @@ else:
             print("  Las reacciones de reducción generan productos más ligeros")
     else:
         print(f"Datos insuficientes: {len(plot_df)} reacciones (mínimo 5)")
-9. ⚠️ Análisis 7: Criticidad de Solventes por Reacción
+9.  Análisis 7: Criticidad de Solventes por Reacción
 Explicación
 Evalúa qué reacciones utilizan solventes más tóxicos y calcula un puntaje de criticidad.
 
-Código
-python
+
 # ============================================
 # ANALISIS 7: Criticidad de Solventes por Reacción
 # ============================================
@@ -895,12 +878,11 @@ else:
                 print(f"  {reaccion}: {peligrosas.loc[reaccion, 'Alta']:.1f}%")
     else:
         print(f"Datos insuficientes: {len(toxicidad_por_reaccion)} reacciones válidas")
-10. 🌿 Análisis 8: Clasificación Ecológica de Solventes
+10. Análisis 8: Clasificación Ecológica de Solventes
 Explicación
 Muestra qué tipos de solventes (verdes, moderados, tóxicos) se utilizan en cada tipo de reacción.
 
-Código
-python
+
 # ============================================
 # ANALISIS 8: Clasificación Ecológica de Solventes
 # ============================================
@@ -1015,12 +997,11 @@ else:
             print(f"  {tipo}: {verde_pct:.0f}% solventes verdes")
     else:
         print(f"Datos insuficientes: {len(plot_df)} reacciones (mínimo 5)")
-11. 🔬 Análisis 9: Cambio de Acidez en la Reacción
+11. Análisis 9: Cambio de Acidez en la Reacción
 Explicación
 Compara el pKa del sustrato vs el pKa del producto para ver cómo cambia la acidez después de la reacción.
 
-Código
-python
+
 # ============================================
 # ANALISIS 9: Cambio de Acidez en la Reacción
 # ============================================
@@ -1122,12 +1103,11 @@ else:
             print("  El pKa disminuye -> se vuelven más ácidos")
     else:
         print(f"Datos insuficientes: {len(plot_df)} reacciones (mínimo 3)")
-12. 🔬 Análisis 10: Catalizadores Más Utilizados (Corregido)
+12.  Análisis 10: Catalizadores Más Utilizados (Corregido)
 Explicación
 Identifica los catalizadores más frecuentes en la base de datos y aplica el principio de Pareto (80/20).
 
-Código
-python
+
 # ============================================
 # ANALISIS 10: Catalizadores Más Utilizados (Pareto)
 # ============================================
@@ -1260,12 +1240,11 @@ else:
         
     else:
         print(f"Datos insuficientes: {len(counts)} catalizadores (mínimo 2)")
-13. ⚠️ Análisis 11C: Perfil de Toxicidad
+13.  Análisis 11C: Perfil de Toxicidad
 Explicación
 Evalúa la distribución general de toxicidad de los sustratos en la base de datos.
 
-Código
-python
+
 # ============================================
 # ANALISIS 11C: Perfil de Toxicidad de la Base de Datos
 # ============================================
@@ -1377,20 +1356,25 @@ else:
         print("  -> Requieren protocolos de seguridad especiales")
     else:
         print("  La base de datos no contiene compuestos extremadamente tóxicos")
-14. 📋 Tabla de Modificaciones Comunes
-Elemento	Ubicación	Opciones de Cambio
-Colores de puntos	POINT_COLOR = 'steelblue'	'red', 'green', 'purple', '#FF5733'
-Colores de barras	BAR_COLOR = 'coral'	'skyblue', 'seagreen', 'darkorange'
-Paletas de colores	COLOR_PALETTE = 'Set2'	'viridis', 'coolwarm', 'Blues', 'RdYlGn'
-Tamaño de figura	FIG_SIZE = (12, 8)	(10, 6), (14, 10)
-Transparencia	POINT_ALPHA = 0.7	0.3 (más transparente), 1.0 (opaco)
-Rango PM	PM_MIN, PM_MAX = 40, 300	50, 250 (más estrecho), 30, 400 (más amplio)
-Rango PE	PE_MIN, PE_MAX = 20, 400	0, 350, 50, 500
-Rango pKa	PKA_MIN, PKA_MAX = 0, 40	0, 30, 0, 50
-Umbral toxicidad (log)	UMBRAL_MUY_TOXICO = 1.7	1.0 (LD50=10), 2.0 (LD50=100)
-Umbral LD50	UMBRAL_MUY_TOXICO = 50	25, 100 según criterio
-Línea Pareto	PARETO_LINE = 80	70, 90
-Rotación etiquetas	ROTATION = 45	0 (horizontal), 90 (vertical)
-Estilo línea tendencia	TREND_STYLE = '--'	'-' (sólido), ':' (punteado), '-.' (guión-punto)
-Número top catalizadores	TOP_N = 10	5, 15, 20
-Ponderaciones criticidad	PESO_ALTA = 3, PESO_MEDIA = 2, PESO_BAJA = 1	5, 3, 1 (más peso a toxicidad alta)
+14.  Tabla de Modificaciones Comunes
+
+
+### Guía de Modificación de Parámetros y Estilos
+
+| Elemento | Ubicación en el Código | Opciones de Cambio |
+| :--- | :--- | :--- |
+| **Colores de puntos** | `POINT_COLOR = 'steelblue'` | `'red'`, `'green'`, `'purple'`, `'#FF5733'` |
+| **Colores de barras** | `BAR_COLOR = 'coral'` | `'skyblue'`, `'seagreen'`, `'darkorange'` |
+| **Paletas de colores** | `COLOR_PALETTE = 'Set2'` | `'viridis'`, `'coolwarm'`, `'Blues'`, `'RdYlGn'` |
+| **Tamaño de figura** | `FIG_SIZE = (12, 8)` | `(10, 6)`, `(14, 10)` |
+| **Transparencia** | `POINT_ALPHA = 0.7` | `0.3` (más transparente), `1.0` (opaco) |
+| **Rango PM** | `PM_MIN, PM_MAX = 40, 300` | `50, 250` (más estrecho), `30, 400` (más amplio) |
+| **Rango PE** | `PE_MIN, PE_MAX = 20, 400` | `0, 350`, `50, 500` |
+| **Rango pKa** | `PKA_MIN, PKA_MAX = 0, 40` | `0, 30`, `0, 50` |
+| **Umbral toxicidad (log)** | `UMBRAL_MUY_TOXICO = 1.7` | `1.0` (LD50=10), `2.0` (LD50=100) |
+| **Umbral LD50** | `UMBRAL_MUY_TOXICO = 50` | `25`, `100` según criterio |
+| **Línea Pareto** | `PARETO_LINE = 80` | `70`, `90` |
+| **Rotación etiquetas** | `ROTATION = 45` | `0` (horizontal), `90` (vertical) |
+| **Estilo línea tendencia** | `TREND_STYLE = '--'` | `'-'` (sólido), `':'` (punteado), `'-.'` (guión-punto) |
+| **Número top catalizadores** | `TOP_N = 10` | `5`, `15`, `20` |
+| **Ponderaciones criticidad** | `PESO_ALTA = 3`, `PESO_MEDIA = 2`, `PESO_BAJA = 1` | `5`, `3`, `1` (más peso a toxicidad alta) |A = 2, PESO_BAJA = 1	5, 3, 1 (más peso a toxicidad alta)
