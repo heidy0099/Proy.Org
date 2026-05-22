@@ -5,8 +5,6 @@ Este script analiza datos quimicos de sustratos y productos, incluyendo propieda
 Tabla de Contenidos
 Importacion de Librerias y Carga de Datos
 
-Limpieza de Datos Nulos
-
 Analisis 1: PM vs PE (Fuerzas de Dispersion)
 Analisis 2: Boxplot por Grupo Funcional
 Analisis 3: pKa por Grupo Funcional
