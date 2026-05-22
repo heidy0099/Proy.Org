@@ -734,7 +734,7 @@ else:
 
     # Limpieza
     plot_df = plot_df[~plot_df['Nombre_Solvente 1'].astype(str).str.contains('nan|None|0', na=False, case=False)]
-    plot_df = plot_df[~plot_df['Nombre_Solvente 1'].astype(str).str.strip() == '']
+    plot_df = plot_df[~(plot_df['Nombre_Solvente 1'].astype(str).str.strip() == '')]
     plot_df = plot_df[plot_df['Nombre_Reaccion'].astype(str).str.strip() != '']
 
     # Clasificar
@@ -884,7 +884,6 @@ else:
     else:
         print(f"Datos insuficientes: {len(toxicidad_por_reaccion)} reacciones válidas")
 
-```
 
 ---
 
@@ -1393,7 +1392,6 @@ else:
         print("  -> Requieren protocolos de seguridad especiales")
     else:
         print("  La base de datos no contiene compuestos extremadamente tóxicos")
-}
 
 
 
