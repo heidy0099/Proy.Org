@@ -1,103 +1,156 @@
+# 📊 PROYECTO 3: DERIVADOS DE ÁCIDOS - ANÁLISIS DE REACCIONES QUÍMICAS
+
+## 📌 Descripción General del Proyecto
+
+Este proyecto comprende el estudio sistemático de **240 reacciones químicas** de derivados de ácidos, incluyendo:
+
+| Grupo Funcional | Código | Cantidad |
+|:----------------|:------:|---------:|
+| Nitrilos | NIT | 40 |
+| Haluros de acilo | HAC | 60 |
+| Anhídridos | ANH | 20 |
+| Ésteres | EST | 60 |
+| Amidas | AMD | 60 |
+
+El objetivo principal es analizar propiedades fisicoquímicas, caracterizar productos y reactivos, y visualizar patrones mediante herramientas computacionales.
+
+---
+
+## 👩‍🔬 Autoras del Proyecto
+
+| Autora | Rol |
+|:-------|:----|
+| **Heidy Jissel Figueroa Martinez** | Análisis de datos y visualización |
+| **Yuly Esperanza Garcia Gonzalez** | Recopilación y organización de datos |
+| **Gisell Paola Contreras Lopez** | Documentación y control de calidad |
+
+---
+
+## 🎯 Objetivos del Proyecto
+
+1. **Recopilar y organizar** 240 reacciones de derivados de ácidos en formato estructurado
+2. **Registrar propiedades fisicoquímicas** de sustratos y productos
+3. **Realizar análisis gráfico** utilizando librerías Python en Google Colab
+4. **Evaluar correlaciones** entre variables clave (PM, PE, pKa, LD50)
+5. **Clasificar riesgos** toxicológicos y ambientales por grupo funcional
+
+---
+
+## 📁 Estructura del Repositorio
 
 ---
 
 ## 📂 Descripción Detallada de Carpetas y Archivos
 
-### 1. **README.md**
-- **Contenido:** Documentación principal del proyecto
-- **Propósito:** Guía completa para entender, navegar y ejecutar el proyecto
-- **Incluye:** Objetivos, estructura, instrucciones de uso y análisis esperados
+### 📄 **Archivos Raíz**
 
-### 2. 📊 **tabla_reacciones.xlsx**
-- **Contenido:** Base de datos principal con 242 registros y 49 columnas
-- **Columnas principales:**
-  - `ID` - Identificador único de reacción
-  - `Grupo Funcional` - Clasificación química (NIT, HAC, ANH, EST, AMD)
-  - `Función química` - Rol del compuesto en la reacción
-  - `Nombre_Sustrato` / `Formula_Sustrato` - Identificación del reactivo
-  - `Peso molecular` - Masa molar (sustrato y producto)
-  - `Punto de ebullición` - Temperatura de cambio de fase
-  - `Densidad` - Masa por unidad de volumen
-  - `pKa` - Constante de acidez
-  - `LD50` - Toxicidad aguda en mamíferos
-  - `Reactivo`, `Catalizador`, `Solvente`, `Medio`
-  - `Producto` - Compuesto resultante
-  - `Tipo de reacción` / `Nombre de la reacción`
+| Archivo | Versión | Propósito |
+|:--------|:--------|:----------|
+| **LEAME.md** | Final | Documentación principal en español del proyecto |
+| **README.md** | Alternativa | Versión complementaria del README |
+| **Observaciones.ipynb** | Notebook | Registro de observaciones y hallazgos durante el análisis |
 
-### 3. 📋 **tabla_explicacion_analisis_grafico.xlsx**
-- **Contenido:** Matriz de análisis con 11 correlaciones clave
-- **Columnas:**
-  - Variable X vs Variable Y
-  - Propósito del análisis (contexto químico)
-  - Tipo de gráfico recomendado
-- **Análisis incluidos:**
-  1. PM vs PE → Fuerzas de London
-  2. Grupo Funcional vs PE → Fuerzas intermoleculares
-  3. Grupo Funcional vs pKa → Reactividad por resonancia
-  4. Grupo Funcional vs LD50 → Riesgo ambiental
-  5. Grupo Funcional vs Conteo → Distribución muestral
-  6. Tipo_Reaccion vs PM_Producto → Eficiencia sintética
-  7. Nombre_Reaccion vs Solvente → Sostenibilidad
-  8. Tipo_Reaccion vs Tipo_Solvente → Clasificación ecológica
-  9. pKa_Sustrato vs pKa_Producto → Cambio de acidez
-  10. Catalizador vs Frecuencia → Optimización de procesos
-  11. LD50_Reactivos vs LD50_Productos → Perfil de toxicidad
+### 📂 **CODIGOS/ - Scripts y Notebooks**
 
-### 4. 📓 **Codigo_analisis_grafico.ipynb**
-- **Contenido:** Notebook de Python para análisis interactivo
-- **Librerías utilizadas:**
-  - `pandas` - Manipulación de datos
-  - `numpy` - Cálculos numéricos
-  - `plotly` - Gráficos interactivos
-  - `matplotlib` / `seaborn` - Visualización estática
-- **Funcionalidades:**
-  - Carga automática de CSV
-  - Generación de gráficos interactivos
-  - Dashboard completo de análisis
-  - Resumen ejecutivo automático
+Esta carpeta contiene todas las versiones del código desarrollado durante el proyecto:
 
-### 5. 📂 **CODIGOS/**
-- **Contenido:** Scripts adicionales y versiones alternativas
-- **Propósito:** Almacenar código complementario y experimentos
+| Archivo | Versión | Descripción |
+|:--------|:--------|:------------|
+| **Borrador_codigo_graficos.ipynb** | Borrador | Primer intento de generación de gráficos con matplotlib/seaborn |
+| **CÓDIGO** | Base | Script principal en formato plano |
+| **Explicacion_codigo_Final.md** | Documentación | Explicación detallada del funcionamiento del código final |
+| **PROYECTO_3_DERIVADOS_DE_ACIDO.ipynb** | ✅ Final | Notebook completo con análisis final y gráficos interactivos (Plotly) |
 
-### 6. 📂 **ESTRUCTURA/**
-- **Contenido:** Documentos de planificación y metodología
-- **Propósito:** Registrar criterios de análisis y organización del proyecto
+**Evolución del código:**
+1. `Borrador_codigo_graficos.ipynb` → Pruebas iniciales con matplotlib
+2. `CÓDIGO` → Versión base funcional
+3. `PROYECTO_3_DERIVADOS_DE_ACIDO.ipynb` → ✅ Versión final con Plotly y dashboard interactivo
+
+### 📂 **ESTRUCTURA/ - Documentación Metodológica**
+
+| Archivo | Propósito |
+|:--------|:----------|
+| **ESTRUCTURA DEL PROYECTO.md** | Metodología completa, criterios de análisis, matriz de correlaciones y tipos de gráficos |
+
+### 📂 **TABLA DE DATOS/ - Bases de Datos**
+
+Esta carpeta contiene todas las versiones de la base de datos a lo largo del proyecto:
+
+| Archivo | Versión | Estado | Descripción |
+|:--------|:--------|:------|:------------|
+| **Proyecto 3 Química Orgánica versión inicial.xlsx** | v1.0 | 📄 Histórico | Recopilación inicial de datos sin procesar |
+| **Proyecto 3 Química Orgánica.csv** | v1.5 | 📄 Intermedio | Exportación CSV para pruebas en Python |
+| **Proyecto DATOS PROCESADOS.xlsx** | v2.0 | 📄 Procesado | Datos con limpieza y estandarización |
+| **Proyecto 3 Quimica Organica TRATAMIENTO FINAL.xlsx** | v3.0 | ✅ Final | Versión definitiva con 242 registros y 49 columnas |
 
 ---
-## 📊 Resultados Esperados
 
-- ✅ **Matriz de correlaciones** entre propiedades fisicoquímicas
-- ✅ **Clasificación de toxicidad** por grupo funcional
-- ✅ **Optimización de condiciones** de reacción
-- ✅ **Dashboard interactivo** para exploración de datos
-- ✅ **Recomendaciones** para manejo seguro de reactivos
+## 📊 Matriz de Correlaciones y Análisis Gráficos
+
+A continuación se presentan los **11 análisis gráficos** realizados, su propósito químico y el tipo de visualización utilizada:
+
+### 📈 Análisis de Propiedades Fisicoquímicas
+
+| # | Variable X | Variable Y | Propósito del Análisis | Tipo de Gráfico |
+|:-:|:-----------|:-----------|:-----------------------|:----------------|
+| 1 | **PM_Sustrato** | **PE_Sustrato** | **Evaluar las Fuerzas de Dispersión de London:** Demuestra cómo al aumentar la masa molar y el tamaño de la cadena de carbonos, se incrementa la polarizabilidad de la molécula, requiriendo mayor energía térmica (temperatura) para pasar al estado gaseoso. | 📈 Gráfico de Dispersión (X vs Y) |
+| 2 | **Grupo Funcional** | **PE_Sustrato** | **Comparar Fuerzas Intermoleculares por Familia:** Permite analizar por qué compuestos con pesos similares tienen ebulliciones tan distintas. Demuestra que las amidas hierven a mayor temperatura que los nitrilos porque forman redes de **puentes de hidrógeno**, mientras que los nitrilos solo experimentan fuerzas dipolo-dipolo. | 📦 Gráfico de Cajas (Boxplot) |
+| 3 | **Grupo Funcional** | **pKa_Sustrato** | **Analizar la Reactividad y Estabilidad por Resonancia:** Evalúa la acidez relativa de los sustratos. Valores altos de pKa en amidas demuestran que el par de electrones del nitrógeno está deslocalizado por el grupo carbonilo (C=O), explicando por qué son los derivados de ácido más estables y menos reactivos. | 📊 Gráfico de Barras |
+| 4 | **Grupo Funcional** | **LD50_Sustrato** | **Evaluación de Riesgo Ambiental y Toxicidad:** Clasifica el perfil de peligro biológico de las familias químicas en el laboratorio. Permite discutir los riesgos de manejo (como la potencial liberación metabólica de iones cianuro CN⁻ en ciertos nitrilos) frente a la estabilidad de las amidas. | 📊 Gráfico de Barras |
+| 5 | **Grupo Funcional** | **Conteo** | **Análisis de Distribución de la Muestra:** Sirve para caracterizar la base de datos del proyecto. Muestra visualmente la cantidad de muestras y la representatividad (porcentaje de participación) de cada familia química dentro del estudio. | 🥧 Gráfico de Barras o Torta |
+
+---
+
+### 🔬 Análisis de Reactividad, Síntesis y Procesos
+
+| # | Variable X | Variable Y | Propósito del Análisis | Tipo de Gráfico |
+|:-:|:-----------|:-----------|:-----------------------|:----------------|
+| 6 | **Tipo_Reaccion** | **PM_Producto** o **PE_Producto** | **Efecto del Mecanismo en las Propiedades del Producto:** Permite evaluar si ciertos tipos de reacción (como una Reducción con LiAlH₄ frente a una Hidrólisis) tienden a generar sistemáticamente productos más ligeros o volátiles, mapeando la eficiencia promedio de las transformaciones sintéticas. | 📊 Gráfico de Barras (Promedios/Medianas) |
+| 7 | **Nombre_Reaccion** | **Nombre_Solvente 1** | **Análisis de Toxicidad, Criticidad y Sostenibilidad de Solventes:** Evalúa qué tipos de reacciones químicas conllevan un mayor riesgo ambiental y operativo en función del puntaje de criticidad de sus medios de reacción. | 📊 Gráfico de Barras Agrupadas |
+| 8 | **Tipo_Reaccion** | **Tipo_Solvente** | **Clasificación Ecológica y de Seguridad por Tipo de Proceso:** Evalúa si ciertos mecanismos (sustituciones, adiciones, etc.) dependen críticamente de solventes según su naturaleza (ej. polares próticos, polares apróticos, apolares). Permite analizar el impacto ambiental global de cada categoría de reacción y planificar la sustitución sistemática hacia medios de reacción más limpios o reutilizables. | 📊 Gráfico de Barras Apiladas o Gráfico de Mosaico |
+| 9 | **pKa_Sustrato** | **pKa_Producto** | **Evaluación del Cambio de Acidez en la Reacción:** Muestra el salto de pH y reactividad antes y después del proceso químico. Por ejemplo, cómo un nitrilo o amida se transforma en una amina o ácido carboxílico, alterando el carácter ácido-base del sistema. | 📈 Gráfico de Dispersión o Gráfico de Líneas Correlativas |
+| 10 | **Nombre_Catalizador 1** | **Cantidad_Veces_Utilizado** | **Análisis de Recurrencia y Optimización del Medio:** Identifica cuáles agentes catalíticos específicos son los más empleados a lo largo del proyecto para acelerar las transformaciones químicas. Este conteo de frecuencia es clave para priorizar estudios de costos, evaluar la viabilidad de recuperación/reciclaje del catalizador y optimizar las condiciones estándar del proceso. | 📊 Gráfico de Barras Simples (Ordenado de mayor a menor) o Gráfico de Pareto |
+| 11 | **LD50_Reactivos** | **LD50_Productos** | **Variación del Perfil de Toxicidad y Seguridad del Proceso:** Evalúa el cambio en la dosis letal media de los grupos funcionales (LD50) antes y después de la reacción. Su propósito es determinar si el proceso incrementa el riesgo químico o si, por el contrario, se avanza hacia productos más seguros y biocompatibles, lo cual es crítico para el diseño de protocolos de seguridad industrial, manejo de residuos y regulaciones ambientales. | 📊 Gráfico de Barras (Comparativo o de Diferencias) |
+
+---
+
+## 📊 Tipos de Gráficos Utilizados y su Propósito
+
+| Tipo de Gráfico | Cuándo se usa | Ejemplo en el proyecto |
+|:----------------|:--------------|:----------------------|
+| **Gráfico de Dispersión (Scatter)** | Para mostrar correlación entre dos variables numéricas | PM vs PE |
+| **Boxplot (Diagrama de Cajas)** | Para comparar distribuciones entre categorías | Grupo Funcional vs PE |
+| **Gráfico de Barras** | Para comparar valores entre categorías | Grupo Funcional vs pKa |
+| **Gráfico de Barras Agrupadas** | Para comparar múltiples variables por categoría | Nombre_Reacción vs Solvente |
+| **Gráfico de Barras Apiladas** | Para mostrar composición relativa | Tipo_Reacción vs Tipo_Solvente |
+| **Gráfico de Pareto** | Para identificar causas más frecuentes | Catalizador vs Frecuencia |
+| **Gráfico de Torta (Pie Chart)** | Para mostrar proporciones de un todo | Distribución de grupos funcionales |
+| **Gráfico de Líneas** | Para mostrar tendencias o cambios | pKa_Sustrato vs pKa_Producto |
+| **Heatmap (Mapa de Calor)** | Para visualizar matrices de correlación | Correlación entre variables numéricas |
+| **Histograma** | Para mostrar distribución de una variable | Distribución de Temperatura |
+| **Violin Plot** | Para mostrar distribución y densidad | Temperatura por Función Química |
 
 ---
 
 ## 🔍 Interpretación de Variables Clave
 
-| Variable | Significado Químico | Rango Típico |
-|:---------|:--------------------|:-------------|
-| **Peso Molecular (PM)** | Masa molar del compuesto | 50-500 g/mol |
-| **Punto de Ebullición (PE)** | Temperatura de cambio de fase | 0-300°C |
-| **pKa** | Constante de acidez | -2 a 50 |
-| **LD50** | Toxicidad aguda | 1-5000 mg/kg |
-| **Densidad** | Masa por unidad de volumen | 0.5-2.5 g/mL |
+| Variable | Significado Químico | Rango Típico | Interpretación |
+|:---------|:--------------------|:-------------|:---------------|
+| **Peso Molecular (PM)** | Masa molar del compuesto | 50-500 g/mol | Mayor PM = mayor punto de ebullición |
+| **Punto de Ebullición (PE)** | Temperatura de cambio de fase | 0-300°C | Mayor PE = fuerzas intermoleculares más fuertes |
+| **pKa** | Constante de acidez | -2 a 50 | Menor pKa = ácido más fuerte |
+| **LD50** | Toxicidad aguda (dosis letal media) | 1-5000 mg/kg | Menor LD50 = más tóxico |
+| **Densidad** | Masa por unidad de volumen | 0.5-2.5 g/mL | >1 g/mL = más denso que el agua |
+
+### 📊 Rangos de Interpretación de LD50 (Toxicidad)
+
+| LD50 (mg/kg) | Clasificación | Manejo Recomendado |
+|:-------------|:--------------|:-------------------|
+| < 5 | ⚠️ **Súper tóxico** | Campana de extracción, traje de protección |
+| 5 - 50 | ⚠️ **Altamente tóxico** | Guantes, gafas, campana |
+| 50 - 500 | ⚠️ **Moderadamente tóxico** | Precaución estándar |
+| 500 - 5000 | ✅ **Ligeramente tóxico** | Manejo normal con cuidado |
+| > 5000 | ✅ **Prácticamente no tóxico** | Manejo estándar |
 
 ---
 
-## 📈 Ejemplo de Interpretación
-
-| Variable | Valor Bajo | Valor Alto | Implicación |
-|:---------|:-----------|:-----------|:-------------|
-| **PM** | < 100 g/mol | > 300 g/mol | Compuestos más volátiles | Compuestos más pesados |
-| **PE** | < 50°C | > 200°C | Líquido volátil | Sólido estable |
-| **pKa** | < 0 | > 20 | Ácido fuerte | Base fuerte |
-| **LD50** | < 50 mg/kg | > 2000 mg/kg | ⚠️ Altamente tóxico | ✅ Baja toxicidad |
-| **Densidad** | < 1 g/mL | > 1 g/mL | Flota en agua | Hunde en agua |
-
-
-### Paso 1: Clonar o Descargar el Repositorio
-```bash
-git clone https://github.com/heidy0099/Proy.Org.git
