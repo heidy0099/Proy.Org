@@ -154,3 +154,32 @@ A continuación se presentan los **11 análisis gráficos** realizados, su prop�
 
 ---
 
+## 📁 ¿PARA QUÉ SIRVE LA CARPETA DEL DICCIONARIO?
+
+### 🎯 PROPÓSITO PRINCIPAL:
+La carpeta del **diccionario** actúa como una **"guía de referencia rápida"** para entender las columnas del dataset sin tener que revisar el archivo original cada vez.
+
+---
+
+### 📋 ¿QUÉ CONTIENE ESTA CARPETA?
+
+| Archivo | Propósito | Cuándo usarlo |
+|---------|-----------|---------------|
+| `diccionario_columnas.md` | Explicación de CADA columna | Al inicio del proyecto |
+| `diccionario_abreviaturas.md` | Significado de siglas (PM, PE, pKa, etc.) | Cuando aparecen abreviaturas |
+| `mapeo_columnas.json` | Relación nombre técnico ↔ nombre amigable | Para generar gráficos automáticos |
+| `unidades_medida.txt` | Unidades de cada variable | Para etiquetar ejes correctamente |
+| `tipos_de_datos.csv` | Qué columnas son numéricas/categóricas | Para elegir análisis apropiados |
+
+---
+
+### 🔧 ¿PARA QUÉ SIRVE CADA ARCHIVO?
+
+#### 1. **diccionario_columnas.md**
+```markdown
+| Columna | Significado | Tipo | Unidad |
+|---------|-------------|------|--------|
+| PMS     | Peso Molecular | Numérico | g/mol |
+| PES     | Punto Ebullición | Numérico | °C |
+| pKa S   | Constante acidez | Numérico | pH |
+| GF      | Grupo funcional | Categórico | - |
