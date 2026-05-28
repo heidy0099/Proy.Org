@@ -1,0 +1,398 @@
+﻿ID;GF;FQ;NS;PMS;PES;IPES;DS;IDS;pKa S;I pKa S;LD5 S;NR1;NR2;NR3;C1;C2;C3;C4;S1;S2;S3;TEMP;Nmed;Med;NP;PMP;PEP;IPEP;DP;IDP;pKa P;I pKa P;LD5 P;TR;NR;
+AMD1;Amidas;R-CO-NH2;Isobutiramida;87.12;221.00;;0.91;0.60;16.60;0.50;;Azida de potasio;;;;;;;Benceno;;;;Calor (Reflujo);Térmico;Isocianato de isopropilo;85.10;74.50;;0.88;0.14;7.00;;;Reor;Formación de isocianatos;
+AMD2;Amidas;R-CO-NH2;2 - Metilbutanamida;11.15;181.00;;0.90;0.60;16.67;0.50;;Azida de potasio;;;;;;;Benceno;;;;Calor (Reflujo);Térmico;Isocianato de sec-butilo;99.13;1.50;;0.88;0.14;7.00;;;Reor;Formación de isocianatos;
+AMD3;Amidas;R-CO-NH2;2 - Metilpentanamida;115.17;245.00;8.00;0.90;0.60;16.68;0.50;;Azida de potasio;;;;;;;Benceno;;;;Calor (Reflujo);Térmico;Isocianato de 2-pentilo;;;;;;7.00;;;Reor;Formación de isocianatos;
+AMD4;Amidas;R-CO-NH2;Pivalamida;11.15;27.00;9.00;1.10;;16.60;0.50;;Azida de potasio;;;;;;;Benceno;;;;Calor (Reflujo);Térmico;Isocianato de terc-butilo;99.13;85.50;;;;7.00;;;Reor;Formación de isocianatos;
+AMD5;Amidas;R-CO-NH2;2. 2 - Dimetilbutanamida;115.17;223.00;9.00;0.90;0.60;16.67;0.50;;Azida de potasio;;;;;;;Benceno;;;;Calor (Reflujo);Térmico;Isocianato de 2-metil-2-butilo;;;;;;7.00;;;Reor;Formación de isocianatos;
+AMD6;Amidas;R-CO-NH2;Butanamide;87.12;216.00;;0.89;;17.00;0.40;;Azida de potasio;;;;;;;Benceno;;;;Calor (Reflujo);Térmico;Isocianato de 2-metil-2-pentilo;127.18;148.77;9.00;0.85;0.14;7.00;;;Reor;Formación de isocianatos;
+AMD7;Amidas;R-CO-NH2;Pivalamida;11.15;27.00;9.00;1.10;;16.60;0.50;;Azida de sodio ;Trimetilsilil azida;;DPPA ;DEAD;  Tf2O;;Tetrahidrofurano ;;;;Reflujo;Térmico;5-terc-butil-1H-tetrazol;126.16;232.89;23.00;1.11;0.60;5.15;0.10;;AN;Síntesis de 5-sustituido-1H-tetrazoles;
+AMD8;Amidas;R-CO-NH2;2. 2 - Dimetilbutanamida;115.17;223.00;9.00;0.90;0.60;16.67;0.50;;hidruro de sodio;"	
+cloruro mercúrico";;;;;;"	
+Dimetilformamida";;;;Medio amortiguador básico;Basico;Butana mide.norte- [[[ 2- (1H- benzimidazol- 1- il ) - 1- (2. 4- diclorofenil ) etil] imino] [( 4- clorofenil ) amino] metil] - 2. 2- dimetil- (ACI);556.91;;;1.31;0.14;11.48;0.46;;SN;Adición de aminas a aldehídos. cetonas o tiocarbonilos;
+AMD9;Amidas;R-CO-NH2;Butanamide;87.12;216.00;;0.89;;17.00;0.40;;;;;"	
+Rodio. tetrakis [μ- (α. α- difenil benceno cetato- κO: κO′ )] di- . (Rh-Rh)
+3- [[ 3. 5- Bis (trifluorometil ) fenil] amino] - 4- [[( 8α. 9S) - 1. 11- dihidro- 6′- metoxici…";;;;Diclorometano;;;;Medio orgánico anhidro fuertemente básico;Basico;Ácido bencenoacético . α- [( 1- oxobutil) amino] - . éster metílico. (αR) - (ACI);235.28;391.72;3.00;1.10;0.60;14.23;0.46;;SN;N-alquilación de amidas/imidas o reacción de Mitsunobu;
+AMD1;Amidas;R-CO-NH2;Acetamida;59.70;222.00;;1.16;;25.50;;;Bromo en solución alcalina;;;;;;;Agua;;;;Básico / Calor;Básico;Metilamina;31.60;-6.30;;0.66;;1.60;;;Reor;Degradación de Hofmann;
+AMD11;Amidas;R-CO-NH2;Propionamida;73.90;213.00;;1.10;;16.60;0.40;;Bromo en solución alcalina;;;;;;;Agua;;;;Básico / Calor;Básico;Etilamina;45.80;16.60;;0.69;;1.67;;;Reor;Degradación de Hofmann;
+AMD12;Amidas;R-CO-NH2;Butiramida;87.12;216.00;;0.89;;16.67;0.40;;Bromo en solución alcalina;;;;;;;Agua;;;;Básico / Calor;Básico;Propilamina;59.11;48.50;;0.72;;1.53;;58.00;Reor;Degradación de Hofmann;
+AMD13;Amidas;R-CO-NH2;Pentanamida​;11.15;9.00;;0.85;;16.68;0.40;;Bromo en solución alcalina;;;;;;;Agua;;;;Básico / Calor;Básico;Butilamina;73.14;78.00;;0.73;;1.60;;59.00;Reor;Degradación de Hofmann;
+AMD14;Amidas;R-CO-NH2;Isobutiramida;87.12;221.00;;0.91;0.60;16.60;0.50;;Bromuro de fenacilo ;Cloruro de tionilo;;Plata (Ag);;;;Cloroformo ;;;;Calor (Delta);Térmico;2-isopropil-5-feniloxazol;187.24;282.16;9.00;1.40;0.60;1.29;0.10;;AN;Síntesis de oxazoles sustituidos en 2.5;
+AMD15;Amidas;R-CO-NH2;2 - Metilbutanamida;11.15;181.00;;0.90;0.60;16.67;0.50;;formiato de amonio;;;formato deshidrogenasa;Reductasa. 12- oxofitodienoato (Lycoper rsicon esculentum cepa Castlemart I I gen…;;;;;;;Medio con catálisis ácida / Medio básico de lavado;acido;2. 5- Pirrolidinediona . 3- metil- 1- fenil- . (3R) - (9CI. ACI);189.21;393.40;11.00;1.21;0.60;-0.35;0.40;;Red;Red de los enlaces dobles o triples conjugados a grupos carbonilo o ciano.;
+AMD16;Amidas;R-CO-NH2;Hexanamida;115.17;245.00;8.00;0.90;0.60;16.68;0.50;;Trifenilfosfina;;;"	
+Rodio. tetrakis [μ- (octanoato- κO: κO′ )] di- . (Rh-Rh)";;;;Diclorometano;;;;Medio orgánico supergásico anhidro;basico;Fenilalanina . β- oxo-norte- (1- oxohexil) - . éster etílico (9CI. ACI);35.37;465.16;3.00;1.90;0.60;1.22;0.59;;Cond;N-alquilación de amidas/imidas o reacción de Mitsunobu;
+AMD17;Amidas;R-CO-NH2;Pivalamida;11.15;27.00;9.00;1.10;;16.60;0.50;;Trifenilfosfina;Di- μ- clorobis cloródico (η 2 - eteno) diplatino;;;;;;"	
+1.4 - dioxano";;;;Medio acuoso básico moderado;basico;amida de propano .norte- etil- 2. 2- dimetil- (9CI. ACI);129.20;29.85;8.00;0.86;;16.62;0.46;;SN;Adición de amidas. imidas. sulfonamidas y carbamatos a enlaces dobles o triples no activados.;
+AMD18;Amidas;R-CO-NH2;2. 2 - Dimetilbutanamida;115.17;223.00;9.00;0.90;0.60;16.67;0.50;;hidruro de sodio;"	
+cloruro mercúrico";;;;;;Dimetilformamida;;;;Medio orgánico aprotótico neutro;neutro;Butana mide.norte- [[( 4- clorofenil ) amino] [[ 1- (2. 4- diclorofenil ) - 2- (1H- imidazol- 1- il) etil] imino] metil] - 2. 2- dimetil- (ACI);56.86;;;1.30;0.14;11.48;0.46;;SN;Adición de aminas a aldehídos. cetonas o tiocarbonilos;
+AMD19;Amidas;R-CO-NH2;Butanamide;87.12;216.00;;0.89;;17.00;0.40;;Clorhidrato de hidroxilamina;;;;;;; Etanol;;;;Calor (12 °C);Térmico;3-(2-metil-2-pentil)-1.2.4-oxadiazol;;;;;;7.00;;;AN;Ciclación a 1.2.4-oxadiazoles;
+AMD2;Amidas;R-CO-NH2;Pivalamida;11.15;27.00;9.00;1.10;;16.60;0.50;;"	
+bis (trimetilsilil ) amida de litio";bicarbonato de sodio;;;;;;"	
+rofurano tetrahidro";Agua;;;Medio orgánico anhidro fuertemente básico;basico;Ácido carbámico.norte- (2.2 - dimetil- 1- oxopropil) - . éster 1- metilenílico (ACI);185.22;;;1.20;0.60;8.70;0.46;;SN;N-acilación de amidas (Formación de imidas);
+AMD21;Amidas;R-CO-NH2;2. 2 - Dimetilbutanamida;115.17;223.00;9.00;0.90;0.60;16.67;0.50;;"	
+hidruro de sodio";"	
+cloruro mercúrico";;;;;;Dimetilformamida;;;;Medio acuoso amortiguado neutro;neutro;Butana mide.norte- [[[ 2- (1H- benzimidazol- 1- il ) - 1- (2. 4- diclorofenil ) etil] imino] [( 4- clorofenil ) amino] metil] - 2. 2- dimetil- (ACI);556.91;;;1.31;0.14;11.48;0.46;;SN;Adición de aminas a aldehídos. cetonas o tiocarbonilos;
+AMD22;Amidas;R-CO-NH2;Butanamida;87.12;216.00;;0.89;;17.00;0.40;;"	
+pag- Ácido toluenosulfónico";bicarbonato de sodio;;;;;;Tolueno;Agua;;;Medio orgánico halogenado neutro;neutro;Butana mide.norte- (3.4 - dihidro -2- naftalenilo ) - (9CI. ACI);215.29;47.96;45.00;1.80;0.10;14.96;0.20;;Cond;Adición de aminas a aldehídos. cetonas o tiocarbonilos;
+AMD23;Amidas;R-CO-NH2;Pivalamida;11.15;27.00;9.00;1.10;;16.60;0.50;;Cloruro de tionilo;;;Dimetilformamida;;;;"	
+Dimetilformamida";;;;Anhidro / Calentamiento suave;Básico (si usa Py);Pivalonitrilo;83.13;15.50;;0.80;0.60;7.00;;;E;Deshidratación de amidas a nitrilos;
+AMD24;Amidas;R-CO-NH2;2. 2 - Dimetilbutanamida;115.17;223.00;9.00;0.90;0.60;16.67;0.50;;Cloruro de tionilo;;;Dimetilformamida;;;;"	
+Dimetilformamida";;;;Anhidro / Calentamiento suave;Básico (si usa Py);2.2-Dimetilbutanonitrilo;97.16;32.00;;0.80;0.60;7.00;;;E;Deshidratación de amidas a nitrilos;
+AMD25;Amidas;R-CO-NH2;Butanamide;87.12;216.00;;0.89;;17.00;0.40;;Cloruro de tionilo;;;Dimetilformamida;;;;"	
+Dimetilformamida";;;;Anhidro / Calentamiento suave;Básico (si usa Py);2.2-Dimetilpentanonitrilo;111.19;42.00;;0.81;0.60;7.00;;;E;Deshidratación de amidas a nitrilos;
+AMD26;Amidas;R-CO-NH2;Isobutiramida;87.12;221.00;;0.91;0.60;16.60;0.50;;Compuesto alfa-diazocarbonilo;;;Cobre;;;;Diclorometano;;;;Calor;Térmico;2-isopropil-4-metiloxazol;125.17;149.40;9.00;0.95;0.60;3.11;0.10;;AN;Síntesis de oxazoles (vía carbenoides de cobre);
+AMD27;Amidas;R-CO-NH2;2 - Metilbutanamida;11.15;181.00;;0.90;0.60;16.67;0.50;;"	
+formiato de amonio";;;formato deshidrogenasa;NADPH deshidrogenas;;;Agua;;;;Medio orgánico anhidro fuertemente básico;Basico;2. 5- Pirrolidinediona . 3- metil- 1- fenil- . (3R) - (9CI. ACI);189.21;393.40;11.00;1.21;0.60;-0.35;0.40;;Red;Red de los enlaces dobles o triples conjugados a grupos carbonilo o ciano.;
+AMD28;Amidas;R-CO-NH2;Hexanamida;115.17;245.00;8.00;0.90;0.60;16.68;0.50;;;;;"	
+Rodio. tetrakis [μ- (octanoato- κO: κO′ )] di- . (Rh-Rh)";;;;Diclorometano;;;;Medio orgánico halogenado neutro;neutro;2-(pentan-2-il)-4-metiloxazol;35.37;465.16;3.00;1.90;0.60;1.22;0.59;;Cond;N-alquilación de amidas/imidas o reacción de Mitsunobu;
+AMD29;Amidas;R-CO-NH2;Isobutiramida;87.12;221.00;;0.91;0.60;16.60;0.50;;"	
+diciclohexilcarbodiimida​​
+Pentafluorofenol";"	
+bis (trimetilsilil ) amida de sodio";;;;;;Dimetilformamida;"	
+rofurano tetrahidro";;;Medio orgánico débilmente ácido;neutro;5H- [1] Benzopirano [2 . 3-b] piridina- 5- acetamida. 9- fluoro- α. α- dimetil-norte- (2- metil- 1- oxopropil) - 2- [4- (4- morfolinilcarbonil ) fenil] - . (5S) - (ACI);545.60;77.34;6.00;1.26;0.60;11.39;0.46;;Cond;Acilación de nucleófilos de nitrógeno por ácidos carboxílicos;
+AMD3;Amidas;R-CO-NH2;2 - Metilbutanamida;11.15;181.00;;0.90;0.60;16.67;0.50;;"	
+Glucosa";Amoníaco;;N A D P H- deshidrogenasa;Glucosa deshidrogenasa ( NAD );Levodiona reductasa;;Agua;;;;Medio acuoso amortiguado neutro;neutro;Ciclohexanona . 4- hidroxi - 2.2.6 - trimetil- . (4R. 6R) - (9CI. ACI);156.22;239.12;33.00;0.99;0.60;14.66;0.60;;Red;Red de aldehídos y cetonas a alcoholes;
+AMD31;Amidas;R-CO-NH2;Hexanamida;115.17;245.00;8.00;0.90;0.60;16.68;0.50;;(T- 4) - (norte,norte- Dietiletanamina ) trihidro aluminio;;;;;;;"	
+rofurano tetrahidro";;;;Tetrahidrofurano;neutro;1- Hexanamina (9CI, ACI);11.19;131.50;;0.77;;1.56;;;Red;Red de Hexanamida;
+AMD32;Amidas;R-CO-NH2;Pivalamida;11.15;27.00;9.00;1.10;;16.60;0.50;;;;;;;;; Etanol;;;;Medio orgánico halogenado neutro;neutro;Oxazol. 4- (4- bromofenil ) - 2- (1. 1- dimetiletil ) - (ACI);28.16;342.68;17.00;1.31;0.60;1.21;0.10;;Cond;Formación de heterociclos N/O/S;
+AMD33;Amidas;R-CO-NH2;2. 2 - Dimetilbutanamida;115.17;223.00;9.00;0.90;0.60;16.67;0.50;;Ácido sulfúrico;"	
+bicarbonato de sodio";"	
+hidróxido de potasio";;;;;"	
+Agua";;;1.00;Medio alcohólico prótico neutro;neutro;Butanamida . 2. 2- dimetil- (9CI. ACI);115.17;223.42;9.00;0.90;0.60;16.67;0.50;;SN;Hidrólisis de nitrilos;
+AMD34;Amidas;R-CO-NH2;Butanamide;87.12;216.00;;0.89;;17.00;0.40;;amoniaco borano;"	
+ácido clorhídrico";;;;;;éter dietílico;acetato de etilo;;;Medio acuoso ácido fuerte;acido;1- Mina de Butana . clorhidrato (1: 1) (ACI);19.60;;;;;7.00;;;Red;Red de amidas a aminas;
+AMD35;Amidas;R-CO-NH2;Acetamida;59.70;222.00;;1.16;;25.50;;;Hidrato de hidrazina;;;;;;;"	
+Dimetilformamida";;;;Calor (12 °C);Térmico;3-metil-1H-1.2.4-triazol;83.90;138.00;;1.18;0.60;1.60;0.20;;Cond;Ciclación / Síntesis de Triazoles de Einhorn-Brunner;
+AMD36;Amidas;R-CO-NH2;Propionamida;73.90;213.00;;1.10;;16.60;0.40;;Hidrato de hidrazina;;;;;;;"	
+Dimetilformamida";;;;Calor (12 °C);Térmico;3-etil-1H-1.2.4-triazol;97.12;235.30;23.00;1.12;0.60;1.60;0.20;;Cond;Ciclación / Síntesis de Triazoles de Einhorn-Brunner;
+AMD37;Amidas;R-CO-NH2;Butiramida;87.12;216.00;;0.89;;16.67;0.40;;Hidrato de hidrazina;;;;;;;"	
+Dimetilformamida";;;;Calor (12 °C);Térmico;3-propil-1H-1.2.4-triazol;111.15;244.36;23.00;1.70;0.60;1.54;0.20;;Cond;Ciclación / Síntesis de Triazoles de Einhorn-Brunner;
+AMD38;Amidas;R-CO-NH2;Pentanamida​;11.15;9.00;;0.85;;17.00;0.40;;carbonato de cesio;;;Dibromuro de cobalto;Tris [2- (difenilfosfino ) etil] fosfina;;;"	
+	
+metro- Xileno";;;;meta-Xileno;Basico;Pentanamida ,norte-metil- (9CI, ACI);115.17;137.50;;0.86;0.60;16.61;0.46;;SN;N-alquilación de amidas/imidas o reacción de Mitsunobu;
+AMD39;Amidas;R-CO-NH2;Anhídrido Itacónico;112.80;115.00;;1.27;;22.00;;0.13;Hidrónio (Medio ácido);;;;;;;Agua;;;;Medio Neutro (Sometido a reflujo en Dioxano);Neutro;Ácido acético;6.50;117.90;;1.40;;4.76;;;SN;Hidrólisis ácida de amidas;
+AMD4;Amidas;R-CO-NH2;Propionamida;73.90;213.00;;1.10;;16.60;0.40;;Hidrónio (Medio ácido);;;;;;;Agua;;;;Ácido / Calor;Ácido;Ácido propiónico;74.80;141.10;;0.99;;4.86;;164.00;SN;Hidrólisis ácida de amidas;
+AMD41;Amidas;R-CO-NH2;Butiramida;87.12;216.00;;0.89;;16.67;0.40;;Hidrónio (Medio ácido);;;;;;;Agua;;;;Ácido / Calor;Ácido;Ácido butírico;88.11;165.50;;0.96;;4.83;;;SN;Hidrólisis ácida de amidas;
+AMD42;Amidas;R-CO-NH2;Pentanamida​;11.15;9.00;;0.85;;17.00;0.40;;Hidrónio (Medio ácido);;;;;;;Agua;;;;Ácido / Calor;Ácido;Ácido pentanoico;12.13;186.50;;0.94;;4.83;;;SN;Hidrólisis ácida de amidas;
+AMD43;Amidas;R-CO-NH2;Isobutiramida;87.12;221.00;;0.91;0.60;17.00;0.50;;Hidróxido de sodio;;;;;;;Agua;;;;Básico / Calor;Básico;Isobutirato de sodio;88.11;153.50;;0.95;;4.84;;;SN;Hidrólisis básica de amidas;
+AMD44;Amidas;R-CO-NH2;2 - Metilbutanamida;11.15;181.00;;0.90;0.60;16.67;0.50;;Hidróxido de sodio;;;;;;;Agua;;;;Básico / Calor;Básico;2-Metilbutanoato de sodio;12.13;177.00;;0.93;;4.80;;;SN;Hidrólisis básica de amidas;
+AMD45;Amidas;R-CO-NH2;2 - Metilpentanamida;115.17;245.00;8.00;0.90;0.60;16.68;0.50;;Hidróxido de sodio;;;;;;;Agua;;;;Básico / Calor;Básico;2-Metilpentanoato de sodio;116.16;196.50;;0.92;;4.79;;;SN;Hidrólisis básica de amidas;
+AMD46;Amidas;R-CO-NH2;Isobutiramida;87.12;221.00;;0.91;0.60;16.60;0.50;;Hidruro de diisobutilaluminio;;;;;;;Diclorometano;;;;Baja temperatura (-78°C);Anhidro / Reductor suave;Isobutiraldehído;72.11;64.00;;0.79;;15.49;;;Red;Red parcial de amidas a aldehídos;
+AMD47;Amidas;R-CO-NH2;2 - Metilbutanamida;11.15;181.00;;0.90;0.60;16.67;0.50;;Hidruro de diisobutilaluminio;;;;;;;Diclorometano;;;;Baja temperatura (-78°C);Anhidro / Reductor suave;2-Metilbutanal;86.13;92.00;;0.80;;7.00;;;Red;Red parcial de amidas a aldehídos;
+AMD48;Amidas;R-CO-NH2;2 - Metilpentanamida;115.17;245.00;8.00;0.90;0.60;16.68;0.50;;Hidruro de diisobutilaluminio;;;;;;;Diclorometano;;;;Baja temperatura (-78°C);Anhidro / Reductor suave;2-Metilpentanal;1.16;117.00;;0.81;;7.00;;;Red;Red parcial de amidas a aldehídos;
+AMD49;Amidas;R-CO-NH2;Acetamida;59.70;222.00;;1.16;;25.50;;;Hidruro de litio y aluminio;;;;;;;Éter dietílico ;;;;Anhidro / Reductor;Fuerte reductor;Etilamina;45.80;16.60;;0.69;;1.67;;;Red;Red de amidas a aminas;
+AMD5;Amidas;R-CO-NH2;Propionamida;73.90;213.00;;1.10;;16.60;0.40;;Hidruro de litio y aluminio;;;;;;;Éter dietílico ;;;;Anhidro / Reductor;Fuerte reductor;Propilamina;59.11;48.50;;0.72;;1.53;;58.00;Red;Red de amidas a aminas;
+AMD51;Amidas;R-CO-NH2;Butiramida;87.12;216.00;;0.89;;16.67;0.40;;Hidruro de litio y aluminio;;;;;;;Éter dietílico ;;;;Anhidro / Reductor;Fuerte reductor;Butilamina;73.14;78.00;;0.73;;1.60;;59.00;Red;Red de amidas a aminas;
+AMD52;Amidas;R-CO-NH2;Pentanamida​;11.15;9.00;;0.85;;16.68;0.40;;Hidruro de litio y aluminio;;;;;;;Éter dietílico ;;;;Anhidro / Reductor;Fuerte reductor;Pentilamina;87.16;14.00;;0.75;;1.60;;;Red;Red de amidas a aminas;
+AMD53;Amidas;R-CO-NH2;Acetamida;59.70;222.00;;1.16;;25.50;;;Hipobromito de sodio;;;;;;;Agua;;;;Básico / Frío (°C);Básico;N-bromoacetamida;137.96;128.50;;1.71;0.60;9.41;0.46;;SE;N-bromación de amidas (Transposición de Hofmann etapa 1);
+AMD54;Amidas;R-CO-NH2;Propionamida;73.90;213.00;;1.10;;17.00;0.40;;Hipobromito de sodio;;;;;;;Agua;;;;Básico / Frío (°C);Básico;N-bromopropionamida;151.99;73.00;;1.56;0.60;9.41;0.46;;SE;N-bromación de amidas (Transposición de Hofmann etapa 1);
+AMD55;Amidas;R-CO-NH2;Butiramida;87.12;216.00;;0.89;;17.00;0.40;;;;;;;;;"	
+Agua";;;;agua;Neutro;Butanamida (9CI, ACI);87.12;216.00;;0.89;;16.67;0.40;;SN;Hidrólisis de nitrilos;
+AMD56;Amidas;R-CO-NH2;Pentanamida​;11.15;9.00;;0.85;;16.68;0.40;;Hipobromito de sodio;;;;;;;Agua;;;;Básico / Frío (°C);Básico;N-bromopentanamida;18.40;15.00;;1.38;0.60;9.41;0.46;;SE;N-bromación de amidas (Transposición de Hofmann etapa 1);
+AMD57;Amidas;R-CO-NH2;Acetamida;59.70;222.00;;1.16;;25.50;;;Reactivo de Lawesson;;;;;;;Tolueno;Xileno;;;Reflujo;Térmico;Tioacetamida;75.13;111.70;23.00;1.70;0.60;18.45;;;SN;Tionación de amidas (Síntesis de tioamidas);
+AMD58;Amidas;R-CO-NH2;Propionamida;73.90;213.00;;1.10;;16.60;0.40;;Reactivo de Lawesson;;;;;;;Tolueno;Xileno;;;Reflujo;Térmico;Tiopropionamida;89.16;8.00;;1.30;0.60;13.17;0.29;;SN;Tionación de amidas (Síntesis de tioamidas);
+AMD59;Amidas;R-CO-NH2;Butiramida;87.12;216.00;;0.89;;16.67;0.40;;Reactivo de Lawesson;;;;;;;Tolueno;Xileno;;;Reflujo;Térmico;Tiobutiramida;13.19;88.50;;1.00;0.60;13.25;0.29;;SN;Tionación de amidas (Síntesis de tioamidas);
+AMD6;Amidas;R-CO-NH2;Pentanamida​;11.15;9.00;;0.85;;16.68;0.40;;"	
+1.2 - etiol etano";;;;;;;rofurano tetrahidro;;;;Medio orgánico reductor;neutro;1- Pentanamina (9CI. ACI);87.16;14.00;;0.75;;1.60;;;Red;Red de amidas a aminas;
+ANH1;Anhidridos;–CO–O–CO–;Etanoato de octilo;172.26;121.50;;1.18;;7.00;;;;;;;"	
+lipasa de triacilglicerol";;;"	
+Hexano";;;;Lipasa de triacilglicerol;Neutro;Ácido acético. éster pentílico (8CI. 9CI. ACI);13.19;149.20;;0.88;;7.00;;;SN;Transesterificación;
+ANH2;Anhidridos;–CO–O–CO–;Anhídrido ftálico;148.12;295.00;;1.53;;7.00;;;;;;;;;;"	
+Piridina";;;;Piridina;Básico;α- D - Galactop yranosa. 1. 2: 3. 4- bis-O- (1- metiletilideno ) - . 1.2- arboxilato bencenédico de hidrógeno (9CI);48.40;536.10;5.00;1.27;0.60;3.34;0.36;;Cond;Alcoholismo de anhídridos;
+ANH3;Anhidridos;–CO–O–CO–;Anhídrido Butírico;158.20;2.40;;0.97;;7.00;;;;;;"	
+ácido trifluoroacético";;;;;;;;Ácido trifluoroacético;Ácido ;1- Butanona. 1- (4- metoxi fenil) - (9CI. ACI);178.23;186.00;;1.50;;7.00;;;Cond;Acilación de Friedel-Crafts;
+ANH4;Anhidridos;–CO–O–CO–;Anhídrido Itacónico;112.80;115.00;;1.27;;7.00;;;;;;;;;;"	
+Cloroformo";;;;Medio Neutro (Sin reactivos reportados);Neutro;3- Ácido quinolinacético . 4a- (etoxicarbonil ) - 1. 2. 3. 4. 4a. 5. 6. 7- octahidro- 2- oxo- 1- (2- propin- 1- il) - . (3R. 4aS) -rel- (ACI);319.35;529.16;5.00;1.27;0.10;4.37;0.10;;Cond;Michael Addition y Retro-Michael Reactions;
+ANH5;Anhidridos;–CO–O–CO–;Anhídrido propiónico;13.14;167.00;;1.10;;7.00;;;;;;;;;;"	
+Agua";;;;Agua;Neutro (Hidrólisis térmica);Benzim idazo [1. 2-do] quinazolina . 2.4- dibromo - 6- etil- (9CI. ACI);134.18;45.90;;1.84;0.14;1.40;0.30;;Cond;Formación de heterociclos N/O/S;
+ANH6;Anhidridos;–CO–O–CO–;Anhídrido maleico;98.60;22.00;;1.48;;1.83;;;;;;pag- Ácido toluenosulfónico;;;;;;;;p-Ácido toluenosulfónico (PTSA);Ácido;Ácido 2- butenodioico (2Z) - . 1- (3. 6. 9. 12. 15- pentaoxah eptacos- 1 -il) éster (ACI);54.65;598.54;5.00;1.50;0.60;2.49;0.25;;Cond;Acilación de Friedel-Crafts;
+ANH7;Anhidridos;–CO–O–CO–;Anhídrido succínico;1.70;261.00;;1.50;;3.50;;;;;;;;;;Tolueno;;;;Medio Neutro (Sometido a reflujo en Tolueno);Neutro;Ácido butanoico. 4- [[ 4- [[[ bis [[( 1. 1- dimetil etoxi) carbonil] amino] metileno] amino] metil] fenil] amino] - 4- oxo- (ACI);464.51;;;1.22;0.14;4.65;0.10;;Cond;Acilación de nucleófilos de nitrógeno por anhídridos o dicarbonatos;
+ANH8;Anhidridos;–CO–O–CO–;Anhídrido Trifluoroacético;21.30;4.00;;1.51;;7.00;;;;;;;;;;"	
+Diclorometano";"	acetona itril";;;Medio Neutro (Sin reactivos reportados);Neutro;1H- 1. 2. 4- Triazol. 3- (4- nitrophenil ) - 5- ( trifluorometil) - (9CI. ACI);258.16;384.25;52.00;1.57;0.60;6.10;0.40;;Cond;Formación de heterociclos N/O/S;
+ANH9;Anhidridos;–CO–O–CO–;Anhídrido Butírico;158.20;2.40;;0.97;;7.00;;;;;;;;;;"	
+Agua";;;;Agua;Neutro;Ácido fosfónico. [[( 1- oxobutil) amino] fenilmetil ] -(9CI);257.22;195.00;;1.30;0.60;1.47;0.28;;Cond;Acilación de nucleófilos de nitrógeno por anhídridos o dicarbonatos;
+ANH1;Anhidridos;–CO–O–CO–;Anhídrido Itacónico;112.80;115.00;;1.27;;7.00;;;;;;;;;;1.4 - dioxano;;;;;Neutro;Ácido butanodioico . éster 2- metileno- . 4- (2- hexildecilo) (ACI);354.52;477.44;28.00;0.96;0.60;3.83;0.11;;Cond;Alcoholismo de anhídridos;
+ANH11;Anhidridos;–CO–O–CO–;Butanoato de metilo;12.13;12.80;;0.90;;7.00;;;"	
+(dimetilsulfuro) trihidr oboro";;;;;;;2- Metiltetrahidrofurano;;;;Complejo borano-dimetilsulfuro;Ácido;1- Butanol (9CI. ACI);74.12;117.70;;0.81;;16.10;;;Redox;Red de ésteres carboxílicos a alcoholes;
+ANH12;Anhidridos;–CO–O–CO–;Etanoato de etilo;88.11;77.00;;0.90;;26.00;;3.00;"	
+bis (trimetilsilil ) amida de litio";;;;;;;"	
+rofurano tetrahidro";;;;Bis(trimetilsilil)amida de litio (LiHMDS);Básico;1- Ácido naftalenacético . 7- fluoro - 1.2.3.4 -tetrahidro - 1 - hidroxi- . éster etílico (9CI. ACI);252.28;35.90;37.00;1.20;0.60;13.28;0.20;;Cond;Reacción de Cond entre compuestos con hidrógeno activo y aldehídos o cetonas / Reacción de Knoevenagel;
+ANH13;Anhidridos;–CO–O–CO–;Anhídrido benzoico;226.23;36.00;;1.21;;7.00;;;"	
+cloruro de oxalilo";"	
+lamina de trietilo";;;Dimetilformamida;;;"	
+Diclorometano";;;;Cloruro de oxalilo / Trietilamina / Dimetilformamida;Básico;Benzamida.norte- [( 1S) - 2. 2- dimetil- 1- [( 8- quinolinilamino ) carbonil] propil] - (ACI);361.44;646.53;35.00;1.20;0.60;11.98;0.43;;Cond;Acilación de nucleófilos de nitrógeno por ácidos carboxílicos;
+ANH14;Anhidridos;–CO–O–CO–;Anhídrido ftálico;148.12;295.00;;1.53;;7.00;;;"	
+lamina de trietilo";;;;;;;1.2 - dicloroetano;;;;Trietilamina;Básico;Ácido benzoico. 2- [[ 4- [2- [( 3-endo) - 3- (2- metil- 1H- benzimidazol- 1- il) - 8- azabiciclo [3.2.1] oct- 8- il] etil] - 4- fenil- 1- piperidinil ] carbonilo ] - (9CI. ACI);576.73;788.95;6.00;1.30;0.14;3.69;0.36;;Cond;Acilación de nucleófilos de nitrógeno por anhídridos o dicarbonatos;
+ANH15;Anhidridos;–CO–O–CO–;Etanoato de pentilo;13.19;149.20;;0.88;;7.00;;;"	
+Lamina dietética";;;"	
+bromuro de litio";;;;;;;;Bromuro de litio;Neutro;Ácido acético. éster butílico (8CI. 9CI. ACI);116.16;126.10;;0.88;;7.00;;43.00;SN;Transesterificación;
+ANH16;Anhidridos;–CO–O–CO–;Anhídrido Trifluoroacético;21.30;4.00;;1.51;;7.00;;;"	
+Piridina";;;;;;;"	
+1.4 - dioxano";;;;Piridina;Básico;2. 4 (1H. 3H) - Pirimidinadiona . 1.3 - dimetil- 6- (1- piperidinil ) -5- ( 2.2.2 - trifluoroacetil ) - (ACI);319.28;329.85;52.00;1.39;0.60;-2.70;0.20;;Cond;Acilación de Friedel-Crafts;
+ANH17;Anhidridos;–CO–O–CO–;Anhídrido acético-fórmico;88.60;38.25;;1.12;;7.00;;;"	
+Triclorofósforo";"	
+bromuro de hidrógeno";"	
+lamina de trietilo
+anhídrido acético- fórmico";;;;;Acetona ;Ácido acético;"	
+Diclorometano";;Triclorofósforo / Bromuro de hidrógeno / Trietilamina;Ácido;Ácido fosfónico.PAG- [1- (formil amino) - 2- metil propil] - . éster bis (4- etilfenil ) (ACI);389.43;541.29;5.00;1.13;0.60;14.19;0.23;;Cond;Preparación de ésteres inorgánicos a partir de alcoholes;
+ANH18;Anhidridos;–CO–O–CO–;Anhídrido acético;12.90;139.50;;1.80;;7.00;;;Carbonato de sodio;;;;;;;;;;;Carbonato de sodio;Básico;Glicina.norte- acetil-norte-fenil- . éster etílico (9CI. ACI);221.25;275.00;;1.11;;0.16;0.50;;Cond;Acilación de nucleófilos de nitrógeno por anhídridos o dicarbonatos;
+ANH19;Anhidridos;–CO–O–CO–;Anhídrido acético-fórmico;88.60;38.25;;1.12;;7.00;;;borohidruro de sodio;;;;;;;Benceno;"	
+metanol";"	
+Diclorometano";;Borohidruro de sodio;Neutro;Formamida.norte.norte′- (1R. 2R) - 1. 2- ciclohexa nediilbis [norte- [( 2- metilfenil ) metil] - (ACI);378.51;63.22;55.00;1.13;0.10;-1.70;0.40;;Redox;Acilación de nucleófilos de nitrógeno con ésteres carboxílicos y análogos;
+ANH2;Anhidridos;–CO–O–CO–;Anhídrido succínico;1.70;261.00;;1.50;;3.50;;;cloruro de aluminio;"	
+ácido clorhídrico";;;;;;Diclorometano;Agua;;;Cloruro de aluminio ($AlCl_3$) / Ácido clorhídrico;Ácido;Ácido bencenobutanoico . 5- fluoro- 2- hidroxi- γ- oxo- . éster metílico (9CI. ACI);226.20;355.40;32.00;1.28;0.60;7.76;0.43;;Cond;Acilación de Friedel-Crafts;
+EST1;Ésteres;–COOR;Butanoato de metilo;12.13;12.80;;0.90;;7.00;;;;;;lipasa de triacilglicerol ;;;;Agua ;;;;Lipasa de triacilglicerol;Neutro;Ácido butanoico;12.13;12.80;;0.90;;7.00;;;SN;hidrólisis enzimática;
+EST2;Ésteres;–COOR;Etanoato de octilo;172.26;121.50;;;;7.00;;;;;;Estereoisómero de diclorotetrakis ( 1.1 - dimetiletil ) di- μ - hidroxiditina;;;;"	
+metanol";;;;Complejo de estaño (Ditinametanilo);Neutro;1- Octanol;13.23;194.50;;0.83;;15.00;;;SN;Red de éster a alcohol;
+EST3;Ésteres;–COOR;Butanoato de etilo;116.16;12.50;;0.88;;7.00;;;;;;lipasa de triacilglicerol;;;;"	
+butirato de etilo";;;;Lipasa de triacilglicerol;Neutro;N-butilbutanamida;143.23;136.50;;0.88;;16.61;0.46;;Cond;aminólisis enzimática;
+EST4;Ésteres;–COOR;Etanoato de bencilo;15.17;213.00;;1.50;;2.00;;;;;;"	
+Fosfato de titanio y circonio";;;;Éter Etílico;;;115.00;Fosfato de titanio y circonio;Ácido ;Etanoato de bencilo;15.17;213.00;;1.50;;2.00;;1.00;SN;Transesterificación;
+EST5;Ésteres;–COOR;Metanoato de etilo;74.80;54.50;;0.92;;7.00;;;;;;;;;;;;;;Medio Neutro (Sin reactivos reportados);Neutro;N-(picolil)formamida.;136.15;135.00;;1.12;0.60;14.92;0.23;;Cond;formamida sustituida;
+EST6;Ésteres;–COOR;Etanoato de etilo;88.11;77.00;;0.90;;26.00;;3.00;;;;"	
+Bis [μ- (acetato- κO: κO′ )] bis (acetato- κO) octamet hyldi- μ 3 - oxotet ratin";;;;acetato de etilo;;;;Complejo de tetrano / Acetato de etilo;Neutro ;N-octiletanamida;199.33;281.33;8.00;0.86;0.60;16.52;0.46;;Cond;Aminólisis de ester;
+EST7;Ésteres;–COOR;Etanoato de octilo;172.26;121.50;;1.18;;7.00;;;;;;"	
+Estereoisómero de diclorotetrakis ( 1.1 - dimetiletil ) di- μ - hidroxiditina";;;;"	
+metanol";;;;Complejo de estaño (Ditinametanilo);Neutro;Etanal;13.23;194.50;;0.83;;15.00;;4.00;Redox;Red controlada del éster;
+EST8;Ésteres;–COOR;Butanoato de etilo;116.16;12.50;;0.88;;9.90;;;;;;"	
+lipasa de triacilglicerol";;;;"	
+Hexano";;;3.00;Lipasa de triacilglicerol;Neutro ;Butanoato de etilo;116.16;12.50;;0.88;;7.00;;;SN;Hidrólisis enzimática;
+EST9;Ésteres;–COOR;Etanoato de bencilo;15.17;213.00;;1.50;;2.00;;;;;;"	
+Piridinio . 4- etenil- 1- (4- sulfobutil ) - . 1.1.1 - trifluorometanosulfonato ( 1: 1) . …";;;;CicloHexano;;;;Triflato de polipiridinio;Ácido;Etanoato de bencilo;15.17;213.00;;1.50;;2.00;;;SN;transesterificación;
+EST1;Ésteres;–COOR;Butanoato de etilo;116.16;12.50;;0.88;;7.00;;;;;;"	
+lipasa de triacilglicerol";;;;"	
+butirato de etilo";;;;Lipasa de triacilglicerol;Neutro ;Etanoato de bencilo;143.23;136.50;;0.88;;16.61;0.46;;SN;Acilación de nucleófilos de nitrógeno con ésteres carboxílicos y análogos;
+EST11;Ésteres;–COOR;Salicilato de metilo;152.15;222.00;;1.18;;9.90;;21.00;;"	
+bicarbonato de sodio";;Oxobis (2. 4- pentano ionato- κO2 . κO4 ) titanio;;;;"	
+Xileno";Agua;;;Bicarbonato de sodio / Complejo de titanio;Básico;2-hidroxibenzoato de icosilo;39.60;478.50;18.00;0.96;0.60;8.15;0.30;;SN;Transesterificación;
+EST12;Ésteres;–COOR;Etanoato de bencilo;15.17;213.00;;1.50;;2.00;;;;"	
+Ácido sulfúrico";;"	
+Carbonato de potasio";hidróxido de sodio;bromuro de tetrabutilamonio;;Tetrahidrofurano ;Agua;;;Ácido sulfúrico / Hidróxido de sodio;Básico;2- Ácido propenoico. 3- fenil- . éster metílico de fenilo (9CI. ACI);238.28;229.00;;1.11;;;;;Cond;Reacciones de tipo aldólico entre derivados de ácidos carboxílicos o compuestos con hidrógeno activo y aldehídos. cetonas. tiocetonas o aldiminas.;
+EST13;Ésteres;–COOR;Etanoato de octilo;172.26;121.50;;;;7.00;;;;;;;;;;;;;;Medio Neutro (Sin reactivos reportados);Neutro;1- Octeno (8CI. 9CI. ACI);112.21;121.20;;0.71;;7.00;;;E;Pirólisis/E de ácidos carboxílicos y ésteres;
+EST14;Ésteres;–COOR;Butanoato de etilo;116.16;12.50;;0.88;;7.00;;;;;;"	
+lipasa de triacilglicerol";;;;;;;;Lipasa de triacilglicerol;Neutro ;Ácido butanoico. éster etílico (9CI. ACI);116.16;12.50;;0.88;;7.00;;;SN;Esterificación de ácidos carboxílicos;
+EST15;Ésteres;–COOR;Salicilato de metilo;152.15;222.00;;1.18;;9.90;;21.00;;;;"	
+Carbonato de potasio";;;;CicloHexano;;;;Carbonato de potasio;Básico;Ácido benzoico. éster 2- hidroxi- . 3.3.5 - trimetilciclohexílico (9CI. ACI);262.34;165.00;;1.50;;7.75;;;SN;Transferencia de Diazo de Regitz;
+EST16;Ésteres;–COOR;Metanoato de etilo;74.80;54.50;;0.92;;4.80;;;;;;;;;;"	formiato de etilo";;;;Formiato de etilo (Autorreactivo);Neutro;Formamida.norte- [2- metil- 6- (1H- pirrol- 1- il) fenil];2.24;;;;;;;;Cond;Acilación de nucleófilos de nitrógeno por ácidos carboxílicos;
+EST17;Ésteres;–COOR;Antranilato de metilo;151.16;256.00;;1.17;;2.23;;;;;;;;;;;;;;Medio Neutro (Sin reactivos reportados);Neutro;Ácido benzoico. 2 -[( 3- metil- 1- oxobutil) amino] - . éster metílico (9CI. ACI);235.28;399.95;25.00;1.12;0.60;14.51;0.70;;Cond;Acilación de nucleófilos de nitrógeno mediante haluros de acilo/tioacilo/carbamoilo y análogos.;
+EST18;Ésteres;–COOR;Antranilato de metilo;151.16;256.00;;1.17;;2.23;;; hidróxido de litio;;ácido clorhídrico;;;;;rofurano tetrahidro;Agua;;6.00;Hidróxido de litio / Ácido clorhídrico;Básico;2-(5-metil-1H-indol-3-carboxamido)benzoato de metilo;38.33;444.82;35.00;1.31;0.60;13.44;0.70;;Cond;enlace amida/acoplamiento peptídico;
+EST19;Ésteres;–COOR;Butanoato de metilo;12.13;12.80;;0.90;;7.00;;;"	
+(dimetilsulfuro) trihidr oboro";;;;;;;2- Metiltetrahidrofurano;;;9.00;Complejo borano-dimetilsulfuro;Ácido ;Butan-1-ol;74.12;117.70;;0.81;;16.10;;;Redox;Red de ésteres carboxílicos a alcoholes;
+EST2;Ésteres;–COOR;Propanoato de etilo;12.13;99.20;;0.89;;26.00;;;"	
+1- Propanol. 2.2 - dimetil- . sal de potasio (1: 1)";;ácido clorhídrico;;;;;"	
+Tolueno";rofurano tetrahidro;"	
+Agua";;2.2-dimetil-1-propanolato de potasio / Ácido clorhídrico;Básico;Pentanenitril . 3- oxo- (9CI. ACI);97.12;14.50;;0.96;0.60;1.37;0.10;;Cond;Acilación de cetonas y nitrilos mediante ésteres carboxílicos/derivados de dicarbonato;
+EST21;Ésteres;–COOR;Etanoato de bencilo;15.17;213.00;;1.50;;2.00;;;"	
+1.1′ - Carbonildiimidazol";"	
+diisopropilamida de litio";;;;;;"	
+rofurano tetrahidro";;;;Diisopropilamida de litio (LDA) / Carbonildiimidazol;Básico;3-oxobutanoato de bencilo-3^13C;193.20;;;1.12;0.60;;;;Cond;Acilación en un carbono que contiene un hidrógeno activo;
+EST22;Ésteres;–COOR;Butanoato de metilo;12.13;12.80;;0.90;;7.00;;;"	
+Butilo";ácido clorhídrico;;;;;;rofurano tetrahidro;;"	
+acetonitrilo";;Ácido clorhídrico;Ácido;2H- Pirazolo [3. 4-b] piridina- 5- carboni trilo. 4- (2- clorofenil ) - 4. 7- dihidro- 7- metil- 6- propil;312.80;465.60;45.00;1.31;0.10;13.48;0.70;;Cond;Reacción de Cond entre compuestos con hidrógeno activo y aldehídos o cetonas / Reacción de Knoevenagel;
+EST23;Ésteres;–COOR;Antranilato de metilo;151.16;256.00;;1.17;;2.23;;;"	
+carbonato de cesio";;;diacetato de paladio;Diciclohexil [3.6 - dimetoxi - 2′. 4′. 6′- tris (1- metiletil ) [1.1′ - bifenil] -2 - il] fosfjna;;;1.4 - dioxano;;;1.00;Carbonato de cesio / Diacetato de paladio;Básico;N-(4-cloro-2-metoxifenil)antranilato de metilo;291.73;396.11;42.00;1.27;0.60;-1.83;0.50;;SN;SN aromática;
+EST24;Ésteres;–COOR;Butanoato de etilo;116.16;12.50;;0.88;;7.00;;;"	
+diisopropilamida de litio";"	
+Cloruro amónico";;;;;;rofurano tetrahidro;Agua;;-78.00;Diisopropilamida de litio (LDA) / Cloruro amónico;Básico;Ácido hexanoico. éster etílico 2- etil -5- metil- 3- oxo- (ACI);2.28;235.11;8.00;0.95;0.60;11.75;0.46;;Cond;"Síntesis de N-acilaminoácidosC-alquilación de cetonas. aldehídos. nitrilos y ésteres carboxílicos
+Acilación en un carbono que contiene un hidrógeno activo";
+EST25;Ésteres;–COOR;Antranilato de metilo;151.16;256.00;;1.17;;2.23;;;"	
+fenilsilano";Carbonato de potasio;;dicloruro de dibutilestaño;;;;"	
+rofurano tetrahidro";"	
+Acetona";;;Carbonato de potasio / Dicloruro de dibutilestaño;Básico;Ácido benzoico. 2- [( 2- cloroacetil ) [( 4- metoxifenil ) metil] amino] - . éster metílico (ACI);347.79;516.18;5.00;1.27;0.60;1.51;0.50;;Cond;Alquilación reductiva de amoníaco o aminas;
+EST26;Ésteres;–COOR;Propanoato de etilo;12.13;99.20;;0.89;;26.00;;;"	
+Hidracina";;;;;;;"	
+Etanol";;;;Hidrazina;Básico;Propanohidrazida;88.11;243.30;9.00;1.10;0.60;13.46;0.18;;Cond;Reacción de un éster con hidrazina;
+EST27;Ésteres;–COOR;Etanoato de octilo;172.26;121.50;;1.18;;9.90;;;"	
+Hidrato de hidrazina (1: 1)";;;;;;;;;;21.00;Hidrato de hidrazina;Básico;Ácido acético. 2- acetilhidrazida (9CI. ACI);116.12;349.89;11.00;1.90;0.60;1.90;;;Cond;Acilación de nucleófilos de nitrógeno con ésteres carboxílicos y análogos;
+EST28;Ésteres;–COOR;Etanoato de octilo;172.26;121.50;;1.18;;9.90;;21.00;"	
+Hidrógeno";;;Ácido [2.2′ - bipiridina ] -5.5′ - dicarboxílico;Aluminio;Paladio;1.1.1 - trifluorometanosulfonato de sililo;1.2 - dicloroetano;;;2.00;Paladio sobre Hidrógeno / Triflato de sililo;Ácido;Octano;114.23;125.67;;0.70;;7.00;;;Redox;desoxigenación del éster a un alcano lineal;
+EST29;Ésteres;–COOR;Etanoato de octilo;172.26;121.50;;;;7.00;;;"	
+Hidrógeno";;;"	
+Paladio";Ácido metanosulfónico . 1.1.1 - trifluoro- . sal de hafnio ( 4+ ) (4: 1);;;;;;;Triflato de hafnio / Ácido metanosulfónico / Hidrógeno;Ácido;Octano (8CI. 9CI. ACI);114.23;125.67;;0.70;;7.00;;;Redox;"Desalcoxilación de acetales. ortoésteres y éteres
+Ruptura reductiva de ésteres carboxílicos";
+EST3;Ésteres;–COOR;Propanoato de etilo;12.13;99.20;;0.89;;7.00;;;"	
+hidróxido de sodio";carboxilesterasa;;;;;;"	
+Agua";;;;Carboxilesterasa / Hidróxido de sodio;Neutro;Ácido propanoico (9CI. ACI);74.80;141.10;;0.99;;4.86;;164.00;SN;Hidrólisis o hidrogenólisis de ésteres o tioésteres carboxílicos;
+EST31;Ésteres;–COOR;Butanoato de metilo;12.13;12.80;;0.90;;;;;"	
+hidruro de sodio";;(T B- 5- 12) - Dicloro [2- [( dimetil lamino- κnorte) metil] fenil- κdo] fenilestaño;;;;;Xileno;;;1.00;Hidruro de sodio;Básico;Butanoato de bencilo;178.23;144.50;;1.20;;7.00;;;SN;Transesterificación;
+EST32;Ésteres;–COOR;Propanoato de etilo;12.13;99.20;;0.89;;26.00;;3.00;"	
+hidruro de sodio";;;;;;;rofurano tetrahidro;;;;Hidruro de sodio;Básico;3-(3.5-diclorofenil)-2-metil-3-oxopropanoato de etilo;275.13;361.16;37.00;1.28;0.60;11.60;0.50;;Cond;Acilación de ésteres carboxílicos mediante condensaciones de Claisen y Dieckmann;
+EST33;Ésteres;–COOR;Metanoato de etilo;74.80;54.50;;0.92;;4.80;;214.00;"	
+hidruro de sodio";;;;;;;Tetrahidrofurano ;;;;Hidruro de sodio;Básico;9H-fluoreno-9-carbaldehído;194.23;17.50;;1.25;0.60;-1.62;;;Cond;Acilación en un carbono que contiene un hidrógeno activo;
+EST34;Ésteres;–COOR;Metanoato de etilo;74.80;54.50;;0.92;;7.00;;;"	
+hidruro de sodio";;;"	
+18- Corona- 6";;;;Tolueno;;;;Hidruro de sodio / 18-Corona-6;Básico;3- Ácido piridinacético . α- (hidroximetilen ) -6- (trifluorometil ) - . éster etílico (9CI. ACI);261.20;329.35;42.00;1.34;0.60;3.12;0.50;;Cond;Acilación en un carbono que contiene un hidrógeno activo;
+EST35;Ésteres;–COOR;Etanoato de pentilo;13.19;149.20;;0.88;;7.00;;;"	
+lamina de trietilo";"	
+ácido clorhídrico";;"	
+tetracloruro de titanio";;;;Diclorometano;Agua;;;Tetracloruro de titanio / Ácido clorhídrico / Trietilamina;Ácido;2- Ácido propenoico. 3- (4- metoxifenil ) - . éster pentílico (9CI. ACI);248.32;368.42;17.00;1.30;0.60;7.00;;;Cond;Reacción de Cond entre compuestos con hidrógeno activo y aldehídos o cetonas / Reacción de Knoevenagel;
+EST36;Ésteres;–COOR;Etanoato de etilo;88.11;77.00;;0.90;;26.00;;3.00;"	
+lamina de trietilo";"	
+diisopropilamida de litio";;;;;;"	
+rofurano tetrahidro";;;;Diisopropilamida de litio (LDA) / Cloroformiato de isobutilo;Básico;Ácido ciclohexano epropanoico. 2- metil- β- oxo- . éster etílico ;212.29;285.49;13.00;1.10;0.60;1.52;0.40;;Cond;Acilación en un carbono que contiene un hidrógeno activo;
+EST37;Ésteres;–COOR;Etanoato de pentilo;13.19;149.20;;0.88;;7.00;;;"	
+Lamina dietética";;;"	
+bromuro de litio";;;;;;;;Bromuro de litio;Neutro;Etanoato de butilo;116.16;126.10;;0.88;;7.00;;43.00;SN;Transesterificación;
+EST38;Ésteres;–COOR;Etanoato de bencilo;15.17;213.00;;1.50;;2.00;;;"	
+norte.norte.norte′.norte′ - Tetrametiletilenodiamina";;;;;;;"	
+acetona itril";;;;Tetrametiletilenodiamina (TMEDA);Básico;Ácido acético. éster fenilmetílico (9CI. ACI);15.17;213.00;;1.50;;2.00;;;SN;O-Alquilación de sales de ácidos carboxílicos;
+EST39;Ésteres;–COOR;Metanoato de etilo;74.80;54.50;;0.92;;4.80;;;"	
+Potasioterciario- butóxido";"	
+formiato de etilo";;;;;Ácido cítrico;rofurano tetrahidro;"	
+rofurano tetrahidro";"	
+Agua";;Ter-butóxido de potasio / Bromuro de metilmagnesio;Básico;4-oxo-1.4-dioxaespiro[4.5]decano-3-carbaldehído;184.19;33.00;42.00;1.24;;6.73;0.20;;Cond;Cond compleja;
+EST4;Ésteres;–COOR;Etanoato de etilo;88.11;77.00;;0.90;;26.00;;;"	
+Triclorocerio";;;;;;;"	
+rofurano tetrahidro";;;;Triclorocerio / Hidruro de sodio;Básico;2- Ciclohexeno - 1- ácido acético. 1- hidroxi- . éster etílico (8CI. 9CI. ACI);184.23;265.94;23.00;1.90;0.60;13.92;0.20;;Cond;Reacción de Cond entre compuestos con hidrógeno activo y aldehídos o cetonas / Reacción de Knoevenagel;
+EST41;Ésteres;–COOR;Antranilato de metilo;151.16;256.00;;1.17;;2.23;;;"	
+Triclorofósforo";"	
+bicarbonato de sodio";;;;;;"	
+rofurano tetrahidro";Agua;;;Triclorofósforo ($PCl_3$) / Bicarbonato de sodio;Ácido;Ácido benzoico. 2- [[ 2- [[[ 4- (acetil amino) fenil] sulfonil] amino] acetil] amino] - . éster metílico (ACI);45.43;1.41;0.60;;;9.58;0.10;;Cond;Acilación de nucleófilos de nitrógeno por ácidos carboxílicos;
+EST42;Ésteres;–COOR;Salicilato de metilo;152.15;222.00;;1.18;;9.90;;;"	
+Trifenilfosfina";Boxilato de diisopropil azodicar;;;;;;"	
+Tolueno";;;;Trifenilfosfina / Azodicarboxilato de diisopropilo (Mitsunobu);Neutro ;3- Ácido oxazolidincarboxílico . 4- [[ 2- (metoxic arbonil) fenoxi] metil] - 2. 2- dimetil- . 1. 1- éster dimetílico . ( 4R) - (ACI);22.18;458.74;35.00;1.13;0.60;-2.45;0.60;;SN;Conversión de alcoholes a éter / Eterificación de Mitsunobu;
+EST43;Ésteres;–COOR;Butanoato de metilo;12.13;12.80;;0.90;;7.00;;;"	
+uminato uterino de tetrade litio";"	
+ácido clorhídrico";;;;;;rofurano tetrahidro;Agua;;;Deuterohidruro de litio y aluminio / Ácido clorhídrico;Básico;1- Butano-1.1-d2 -ol (9CI);76.13;115.00;;0.82;;15.24;0.10;;Redox;"
+Red de ésteres carboxílicos a alcoholes";
+EST44;Ésteres;–COOR;Butanoato de etilo;116.16;12.50;;0.88;;9.90;;;"	
+uminato uterino de tetrade litio";;;;;;;éter dietílico;;;;Deuterohidruro de litio y aluminio;Básico;1- Butano-1.1-d2 -ol (9CI);76.13;115.00;;0.82;;15.24;;;Redox;Red de ésteres carboxílicos a alcoholes;
+EST45;Ésteres;–COOR;Propanoato de etilo;12.13;99.20;;0.89;;7.00;;;1- Propanol. 2.2 - dimetil- . sal de potasio (1: 1);;"	
+ácido clorhídrico";;;;;"	
+Tolueno";rofurano tetrahidro;"	
+Agua";;2.2-dimetil-1-propanolato de potasio / Ácido clorhídrico;Básico;alpha-propionilfenilacetonitrilo ;173.21;253.86;2.00;1.60;0.60;1.18;0.10;;Cond;Ataque nucleofílico Y Formacion de nitrilo;
+EST46;Ésteres;–COOR;Etanoato de bencilo;15.17;213.00;;1.50;;2.00;;;1.1′ - Carbonildiimidazol;"	
+diisopropilamida de litio";;;;;;"	
+rofurano tetrahidro";;;;Diisopropilamida de litio (LDA) / Carbonildiimidazol;Básico;Butanoico-3- 13doácido. 3- oxo- . éster metílico de fenilo (9CI);193.20;;;1.12;0.60;7.00;;;Cond;Acilación en un carbono que contiene un hidrógeno activo;
+EST47;Ésteres;–COOR;Etanoato de pentilo;13.19;149.20;;0.88;;7.00;;;Acetato de amilo ;;;;;;;;;;12.00;Acetato de amilo;Neutro;3-oxobutanoato de pentilo;186.16;332.50;35.00;1.23;0.10;7.00;;;Cond;Cond de Claisen;
+EST48;Ésteres;–COOR;Butanoato de metilo;12.13;12.80;;0.90;;12.00;;;alcohol bencílico;butirato de metilo;;"	
+hidruro de sodio";(T B- 5- 12) - Dicloro [2- [( dimetil lamino- κnorte) metil] fenil- κdo] fenilestaño;;;Xileno;;;1.00;Hidruro de sodio;Básico;Butanoato de bencilo;178.23;144.50;;1.20;;7.00;;;SN;Transesterificación catalizada por base para dar butanoato de bencilo;
+EST49;Ésteres;–COOR;Salicilato de metilo;152.15;222.00;;1.18;;9.90;;21.00;"Aluminio
+Yodo";ácido clorhídrico;;;;;;"	
+acetona itril";Agua;;8.00;Aluminio / Yodo / Ácido clorhídrico;Ácido;Ácido benzoico. 2- hidroxi- (9CI. ACI);138.12;211.00;;1.44;;3.00;;;SN;Hidrólisis o hidrogenólisis de ésteres o tioésteres carboxílicos;
+EST5;Ésteres;–COOR;Salicilato de metilo;152.15;222.00;;1.18;;9.90;;21.00;Trifenilfosfina;;;;;;;Dimetilformamida;;;7.00;Carbonato de potasio;Básico;2-[(2-metilalil)oxi]benzoato de metilo;26.24;12.50;;1.50;0.60;7.00;;;SN;SN alifática;
+EST51;Ésteres;–COOR;Salicilato de metilo;152.15;222.00;;1.18;;9.90;;21.00;Trifenilfosfina;;;;;;;"	
+Dimetilformamida";;;7.00;Carbonato de potasio;Básico;Salicilato de metilo 2-metilalil éter;26.24;12.50;;1.50;0.60;7.00;;;SN;Alquilación nucleofílica;
+EST52;Ésteres;–COOR;Antranilato de metilo;151.16;256.00;;1.17;;2.23;;;cloruro de oxalilo;"	
+Piridina";;Dimetilformamida;"	
+4- (Dimetil lamino) piridina";;;"	
+Diclorometano";;;;Cloruro de oxalilo / Piridina;Ácido ;2-(2-yodobenzamido)benzoato de metilo;381.17;392.70;27.00;1.67;0.60;12.26;0.70;;Cond;Acilación de nucleófilos de nitrógeno por ácidos carboxílicos;
+EST53;Ésteres;–COOR;Etanoato de etilo;88.11;77.00;;0.90;;26.00;;3.00;diisopropilamida de litio;"	
+Cloruro amónico";;;;;;"	
+rofurano tetrahidro";Agua;;-78.00;Diisopropilamida de litio (LDA) / Cloruro amónico;Básico;2-acetilbutanonitrilo.;111.14;55.00;;0.96;;11.37;0.10;;Cond;Cond clásica;
+EST54;Ésteres;–COOR;Propanoato de etilo;12.13;99.20;;0.89;;26.00;;;diisopropilamida de litio;;;;;;;rofurano tetrahidro;;;;Diisopropilamida de litio (LDA);Básico;Ácido propanoico. 3- (butiltio) -2 - metil- 3- oxo- . éster etílico (9CI. ACI);218.31;282.57;23.00;1.50;0.60;11.31;0.46;;Cond;C-alquilación de cetonas. aldehídos. nitrilos y ésteres carboxílicos;
+EST55;Ésteres;–COOR;Metanoato de etilo;74.80;54.50;;0.92;;7.00;;;diisopropilamida de litio;"	
+Ácido fórmico";;;;;;rofurano tetrahidro;;;;Diisopropilamida de litio (LDA) / Ácido fórmico;Básico;3- piridina carboxaldehído . 2.6- difluoro - 4- yodo- (ACI);268.99;33.53;42.00;2.16;0.60;-9.29;0.18;;Cond;Formilación de compuestos aromáticos / Gatterman-Koch/ Vilsmeier-Haack / Riemer-Tiemann/ Duff/ Gross Reaction;
+EST56;Ésteres;–COOR;Etanoato de etilo;88.11;77.00;;0.90;;26.00;;3.00;Hidrógeno;;;Paladio;;;;acetato de etilo;;;;Paladio sobre Hidrógeno;Neutro;Ácido heptanoico;187.28;227.53;13.00;0.93;0.60;7.90;0.35;;Redox;Red/Hidrogenación catalítica con $\text{H}_2/\text{Pd}$;
+EST57;Ésteres;–COOR;Etanoato de pentilo;13.19;149.20;;0.88;;7.00;;;hidróxido de sodio;;;;;;;"	
+metanol";Agua;;;Hidróxido de sodio;Básico;1-hexanol;88.15;137.50;;0.81;;12.40;;;SN;Saponificación;
+EST58;Ésteres;–COOR;Etanoato de etilo;88.11;77.00;;0.90;;26.00;;;hidruro de sodio;;;;;;;"	
+éter diisopropílico";;;45.00;Hidruro de sodio;Básico;2- ácido propenoico. 2- hidroxi- . éster etílico;116.12;185.60;32.00;1.90;0.60;9.66;0.10;;Cond;Hidrólisis o hidrogenólisis de ésteres o tioésteres carboxílicos;
+EST59;Ésteres;–COOR;Etanoato de pentilo;13.19;149.20;;0.88;;7.00;;;lamina de trietilo;"	
+ácido clorhídrico";;"	
+tetracloruro de titanio";;;;"	
+Diclorometano";Agua;;;Tetracloruro de titanio / Ácido clorhídrico / Trietilamina;Ácido ;2- Ácido propenoico. 3- (4- metoxifenil ) - . éster pentílico (9CI. ACI);248.32;368.42;17.00;1.30;0.60;7.00;;;Cond;Reacción de Cond entre compuestos con hidrógeno activo y aldehídos o cetonas / Reacción de Knoevenagel;
+EST6;Ésteres;–COOR;Etanoato de pentilo;13.19;149.20;;0.88;;7.00;;;trietilborohidruro de sodio;;;Hierro. [N- [([ 2. 2′- bipiridina] - 6- il- κN1 . κN1′ ) metileno] - 2. 6- bis (1- metil etil) benceno…;;;;Tolueno;;;;Trietilborohidruro de sodio / Complejo de hierro;Neutro ;Benceno. 1.1 ′- [[ 1- (pentiloxi) etoxi] silileno] bis-(ACI);314.49;372.36;;;;7.00;;;SN;"Alquilación o sililación de alcoholes con ésteres inorgánicos/orgánicos.
+Red de aldehídos y cetonas a alcoholes";
+HAC1;Haluros de acilo;–COX;Yoduro de acetilo;169.95;18.00;;2.19;0.60;7.00;;;Ácido acético / Trietilamina;;;Trietilamina;;;;Diclorometano;;;;Básico / Anhidro;Básico;Anhidrido acético;12.90;139.50;;1.80;;7.00;;;SN;Formación de anhídridos;
+HAC2;Haluros de acilo;–COX;Yoduro de isobutirilo;198.00;43.50;;1.79;0.60;7.00;;;Ácido isobutírico / Trietilamina;;;Trietilamina;;;;Diclorometano;;;;Básico / Anhidro;Básico;Anhidrido isobutírico;158.20;181.50;;0.95;;7.00;;;SN;Formación de anhídridos;
+HAC3;Haluros de acilo;–COX;Yoduro de propionilo;183.98;75.00;;1.96;0.60;7.00;;;Ácido propiónico / Trietilamina;;;Trietilamina;;;;Diclorometano;;;;Básico / Anhidro;Básico;Anhidrido propiónico;13.14;167.00;;1.10;;7.00;;;SN;Formación de anhídridos;
+HAC4;Haluros de acilo;–COX;Bromuro de acetilo;122.95;76.00;;1.52;;7.00;;;Agua / Piridina;;;Piridina;;;;Piridina / Acetona;;;;Acuoso / Básico;Básico;Ácido acético;6.50;117.90;;1.40;;4.76;;;SN;Hidrólisis de haluros de acilo;
+HAC5;Haluros de acilo;–COX;Bromuro de propionilo;136.97;15.00;;1.55;0.60;7.00;;;Agua / Piridina;;;Piridina;;;;Piridina / Acetona;;;;Acuoso / Básico;Básico;Ácido propiónico;74.80;141.10;;0.99;;4.86;;164.00;SN;Hidrólisis de haluros de acilo;
+HAC6;Haluros de acilo;–COX;bromuro de isobutirilo;151.00;117.00;8.00;1.44;0.60;7.00;;;Agua / Piridina;;;Piridina;;;;Piridina / Acetona;;;;Acuoso / Básico;Básico;Ácido isobutírico;88.11;153.50;;0.95;;4.84;;;SN;Hidrólisis de haluros de acilo;
+HAC7;Haluros de acilo;–COX;Bromuro de acetilo;122.95;76.00;;1.52;;7.00;;;Amoniaco (exc) luego Bromo/Hidróxido de sodio;;;;;;;Etanol;Agua;;;Básico;Básico;Metilamina;31.60;-6.30;;0.66;;1.60;;;SN;Degradación de Hofmann;
+HAC8;Haluros de acilo;–COX;Bromuro de propionilo;136.97;15.00;;1.55;0.60;7.00;;;Amoniaco (exc) luego Bromo/Hidróxido de sodio;;;;;;;Etanol;Agua;;;Básico;Básico;Etilamina;45.80;16.60;;0.69;;1.67;;;SN;Degradación de Hofmann;
+HAC9;Haluros de acilo;–COX;bromuro de isobutirilo;151.00;117.00;8.00;1.44;0.60;7.00;;;Amoniaco (exc) luego Bromo/Hidróxido de sodio;;;;;;; Etanol;Agua;;;Básico;Básico;Isopropilamina;59.11;33.50;;0.69;;1.49;;5.00;SN;Degradación de Hofmann;
+HAC1;Haluros de acilo;–COX;Yoduro de acetilo;169.95;18.00;;2.19;0.60;7.00;;;Azida de potasio;;;;;;;Acetona ;;;;Acuoso;Neutro;Azida de acetilo;85.60;;;;;7.00;;;SN;Formación de azidas de acilo;
+HAC11;Haluros de acilo;–COX;Yoduro de propionilo;183.98;75.00;;1.96;0.60;7.00;;;Azida de potasio;;;;;;;Acetona ;;;;Acuoso;Neutro;Azida de propionilo;99.90;;;;;7.00;;;SN;Formación de azidas de acilo;
+HAC12;Haluros de acilo;–COX;Yoduro de isobutirilo;198.00;43.50;;1.79;0.60;7.00;;;Azida de potasio;;;;;;;Acetona ;;;;Acuoso;Neutro;Azida de isobutirilo;113.12;;;;;7.00;;;SN;Formación de azidas de acilo;
+HAC13;Haluros de acilo;–COX;Cloruro de acetilo;78.50;52.00;;1.11;;19.30;;;Azida de potasio;;;;;;;Benceno;;;;Calentamiento (Reflujo);Anhidro;Isocianato de metilo;57.50;39.55;;0.96;;7.00;;;SN;Formación de isocianatos;
+HAC14;Haluros de acilo;–COX;Cloruro de propionilo;92.52;77.50;;1.70;;7.00;;;Azida de potasio;;;;;;;Benceno;;;;Calentamiento (Reflujo);Anhidro;Isocianato de etilo;71.80;6.00;;0.90;;7.00;;;SN;Formación de isocianatos;
+HAC15;Haluros de acilo;–COX;Cloruro de isobutirilo;16.55;85.00;;1.11;;7.00;;;Azida de potasio;;;;;;;Benceno;;;;Calentamiento (Reflujo);Anhidro;Isocianato de isopropilo;85.10;74.50;;0.88;0.14;7.00;;;SN;Formación de isocianatos;
+HAC16;Haluros de acilo;–COX;Cloruro de 2- metilbutanoilo;12.58;32.00;;1.00;;7.00;;;Azida de potasio;;;;;;;Benceno;;;;Calentamiento (Reflujo);Anhidro;Isocianato de sec-butilo;99.13;1.50;;0.88;0.14;7.00;;;SN;Formación de isocianatos;
+HAC17;Haluros de acilo;–COX;Cloruro de acetilo;78.50;52.00;;1.11;;19.30;;;Benceno;;;Cloruro de aluminio;;;;Benceno;;;;Anhidro / Ácido de Lewis;Ácido;Acetofenona;12.15;22.00;;1.30;;-6.20;;27.00;SEAr;Acilación de Friedel-Crafts;
+HAC18;Haluros de acilo;–COX;Cloruro de propionilo;92.52;77.50;;1.70;;7.00;;;Benceno;;;Cloruro de aluminio;;;;Benceno;;;;Anhidro / Ácido de Lewis;Ácido;Propiofenona;134.18;218.00;;;;24.40;;;SEAr;Acilación de Friedel-Crafts;
+HAC19;Haluros de acilo;–COX;Cloruro de isobutirilo;16.55;85.00;;1.11;;7.00;;;Benceno;;;Cloruro de aluminio;;;;Benceno;;;;Anhidro / Ácido de Lewis;Ácido;Isobutirofenona;148.20;18.25;;1.00;;26.30;;;SEAr;Acilación de Friedel-Crafts;
+HAC2;Haluros de acilo;–COX;Cloruro de 2- metilbutanoilo;12.58;32.00;;1.00;;7.00;;;Benceno;;;Cloruro de aluminio;;;;Benceno;;;;Anhidro / Ácido de Lewis;Ácido;2-metilbutirofenona;162.23;13.00;;0.97;;7.00;;;SEAr;Acilación de Friedel-Crafts;
+HAC21;Haluros de acilo;–COX;Cloruro de acetilo;78.50;52.00;;1.11;;19.30;;;Bromuro de etilmagnesio (exceso);;;;;;;Éter dietílico;;;;Anhidro / Hidrólisis ácida final;Básico (luego ácido);2-metil-2-butanol;58.80;49.00;;0.87;;7.00;;14.00;SN;Reacción con reactivos de Grignard (Formación de alcoholes terciarios);
+HAC22;Haluros de acilo;–COX;Cloruro de propionilo;92.52;77.50;;1.70;;7.00;;;Bromuro de etilmagnesio (exceso);;;;;;;Éter dietílico;;;;Anhidro / Hidrólisis ácida final;Básico (luego ácido);3-metil-3-pentanol;12.17;122.40;;0.83;;15.38;0.29;;SN;Reacción con reactivos de Grignard (Formación de alcoholes terciarios);
+HAC23;Haluros de acilo;–COX;Cloruro de isobutirilo;16.55;85.00;;1.11;;7.00;;;Bromuro de etilmagnesio (exceso);;;;;;;Éter dietílico;;;;Anhidro / Hidrólisis ácida final;Básico (luego ácido);2.3-dimetil-2-butanol;12.17;118.60;;0.82;;15.24;0.29;;SN;Reacción con reactivos de Grignard (Formación de alcoholes terciarios);
+HAC24;Haluros de acilo;–COX;Cloruro de 2- metilbutanoilo;12.58;32.00;;1.00;;7.00;;;Bromuro de etilmagnesio (exceso);;;;;;;Éter dietílico;;;;Anhidro / Hidrólisis ácida final;Básico (luego ácido);2.3-dimetil-3-pentanol;116.20;139.00;;0.83;;15.24;0.29;;SN;Reacción con reactivos de Grignard (Formación de alcoholes terciarios);
+HAC25;Haluros de acilo;–COX;Cloruro de acetilo;78.50;52.00;;1.11;;19.30;;;Clorhidrato de N.O-dimetilhidroxilamina;;;Piridina ;;;;Diclorometano;;;;Básico / Anhidro;Básico;N-metoxi-N-metilacetamida;13.12;65.00;;0.98;0.60;7.00;;;SN;Formación de amida de Weinreb;
+HAC26;Haluros de acilo;–COX;Cloruro de propionilo;92.52;77.50;;1.70;;7.00;;;Clorhidrato de N.O-dimetilhidroxilamina;;;Piridina ;;;;Diclorometano;;;;Básico / Anhidro;Básico;N-metoxi-N-metilpropionamida;117.15;119.00;23.00;0.96;0.60;7.00;;;SN;Formación de amida de Weinreb;
+HAC27;Haluros de acilo;–COX;Cloruro de isobutirilo;16.55;85.00;;1.11;;7.00;;;Clorhidrato de N.O-dimetilhidroxilamina;;;Piridina ;;;;Diclorometano;;;;Básico / Anhidro;Básico;N-metoxi-N-metilisobutiramida;131.17;137.68;23.00;0.95;0.60;7.00;;;SN;Formación de amida de Weinreb;
+HAC28;Haluros de acilo;–COX;Cloruro de 2- metilbutanoilo;12.58;32.00;;1.00;;7.00;;;Clorhidrato de N.O-dimetilhidroxilamina;;;Piridina ;;;;Diclorometano;;;;Básico / Anhidro;Básico;N-metoxi-N.2-dimetilbutanamida;145.20;161.68;23.00;0.94;0.60;7.00;;;SN;Formación de amida de Weinreb;
+HAC29;Haluros de acilo;–COX;Bromuro de acetilo;122.95;76.00;;1.52;;7.00;;;Dimetilamina (exceso);;;Dimetilamina (exceso);;;;Tetrahidrofurano ;;;;Básico / Anhidro;Básico;N.N-dimetilacetamida;87.12;164.00;;0.94;;34.50;;;SN;Aminólisis (Formación de amidas);
+HAC3;Haluros de acilo;–COX;Bromuro de propionilo;136.97;15.00;;1.55;0.60;7.00;;;Dimetilamina (exceso);;;Dimetilamina (exceso);;;;Tetrahidrofurano ;;;;Básico / Anhidro;Básico;N.N-dimetilpropionamida;11.15;175.00;;0.93;;-0.41;0.70;;SN;Aminólisis (Formación de amidas);
+HAC31;Haluros de acilo;–COX;bromuro de isobutirilo;151.00;117.00;8.00;1.44;0.60;7.00;;;Dimetilamina (exceso);;;Dimetilamina (exceso);;;;Tetrahidrofurano ;;;;Básico / Anhidro;Básico;N.N-dimetilisobutiramida;115.17;58.00;;0.87;0.60;-0.47;0.70;;SN;Aminólisis (Formación de amidas);
+HAC32;Haluros de acilo;–COX;Yoduro de acetilo;169.95;18.00;;2.19;0.60;8.00;;;Etilcuprato de litio;;;;;;;Éter dietílico;;;;Anhidro / Baja temperatura;Neutro;2-butanona;72.11;79.60;;0.81;;24.40;;;SN;Acilación de organocupratos (Síntesis de cetonas);
+HAC33;Haluros de acilo;–COX;Yoduro de propionilo;183.98;75.00;;1.96;0.60;7.00;;;Etilcuprato de litio;;;;;;;Éter dietílico;;;;Anhidro / Baja temperatura;Neutro;3-pentanona;86.13;11.90;;0.82;;27.10;;;SN;Acilación de organocupratos (Síntesis de cetonas);
+HAC34;Haluros de acilo;–COX;Yoduro de isobutirilo;198.00;43.50;;1.79;0.60;7.00;;;Etilcuprato de litio;;;;;;;Éter dietílico;;;;Anhidro / Baja temperatura;Neutro;2-metil-3-pentanona;1.16;113.50;;0.83;;7.00;;;SN;Acilación de organocupratos (Síntesis de cetonas);
+HAC35;Haluros de acilo;–COX;Bromuro de acetilo;122.95;76.00;;1.52;;7.00;;;Feniletilamina;;;Oxicloruro de fósforo;;;;Benceno;;;;Calentamiento (Reflujo);Ácido (Lewis);1-metil-3.4-dihidroisoquinolina;145.20;189.00;;1.40;0.14;6.40;0.20;;SEAr;Síntesis de Bischler-Napieralski;
+HAC36;Haluros de acilo;–COX;Bromuro de propionilo;136.97;15.00;;1.55;0.60;7.00;;;Feniletilamina;;;Oxicloruro de fósforo;;;;Benceno;;;;Calentamiento (Reflujo);Ácido (Lewis);1-etil-3.4-dihidroisoquinolina;159.23;122.50;;1.20;0.14;6.35;0.20;;SEAr;Síntesis de Bischler-Napieralski;
+HAC37;Haluros de acilo;–COX;bromuro de isobutirilo;151.00;117.00;8.00;1.44;0.60;7.00;;;Feniletilamina;;;Oxicloruro de fósforo;;;;Benceno;;;;Calentamiento (Reflujo);Ácido (Lewis);1-isopropil-3.4-dihidroisoquinolina;173.25;67.50;;1.10;0.14;6.31;0.20;;SEAr;Síntesis de Bischler-Napieralski;
+HAC38;Haluros de acilo;–COX;Yoduro de acetilo;169.95;18.00;;2.19;0.60;7.00;;;Hidrazina hidratada;;;Hidrazina (exceso);;;; Etanol;;;;Básico / Anhidro;Básico;Acetohidrazida;74.80;127.50;;1.40;0.60;21.80;;;SN;Formación de hidrazidas de acilo;
+HAC39;Haluros de acilo;–COX;Yoduro de propionilo;183.98;75.00;;1.96;0.60;7.00;;;Hidrazina hidratada;;;Hidrazina (exceso);;;; Etanol;;;;Básico / Anhidro;Básico;Propionohidrazida;88.11;243.30;9.00;1.10;0.60;13.46;0.18;;SN;Formación de hidrazidas de acilo;
+HAC4;Haluros de acilo;–COX;Yoduro de isobutirilo;198.00;43.50;;1.79;0.60;7.00;;;Hidrazina hidratada;;;Hidrazina (exceso);;;; Etanol;;;;Básico / Anhidro;Básico;Isobutirohidrazida;12.14;238.63;9.00;0.98;0.60;13.46;0.36;;SN;Formación de hidrazidas de acilo;
+HAC41;Haluros de acilo;–COX;Bromuro de acetilo;122.95;76.00;;1.52;;7.00;;;Hidroxilamina;;;Base;;;; Etanol;;;;Básico;Básico;Ácido acetohidroxámico;75.70;;;1.16;0.60;9.00;;;SN;Formación de ácidos hidroxámicos;
+HAC42;Haluros de acilo;–COX;Bromuro de propionilo;136.97;15.00;;1.55;0.60;7.00;;;Hidroxilamina;;;Base;;;; Etanol;;;;Básico;Básico;Ácido propionohidroxámico;89.90;;;1.90;0.60;9.31;;;SN;Formación de ácidos hidroxámicos;
+HAC43;Haluros de acilo;–COX;bromuro de isobutirilo;151.00;117.00;8.00;1.44;0.60;7.00;;;Hidroxilamina;;;Base;;;; Etanol;;;;Básico;Básico;Ácido isobutirohidroxámico;13.12;;;1.50;0.60;9.73;0.40;;SN;Formación de ácidos hidroxámicos;
+HAC44;Haluros de acilo;–COX;Cloruro de acetilo;78.50;52.00;;1.11;;19.30;;;Hidruro de diisobutilaluminio;;;;;;;Diclorometano;;;;Baja temperatura (-78°C);Anhidro;Acetaldehído;44.50;21.00;;0.79;;13.57;;;Red;Red selectiva a aldehídos;
+HAC45;Haluros de acilo;–COX;Cloruro de propionilo;92.52;77.50;;1.70;;7.00;;;Hidruro de diisobutilaluminio;;;;;;;Diclorometano;;;;Baja temperatura (-78°C);Anhidro;Propionaldehído;58.80;49.00;;0.87;;7.00;;14.00;Red;Red selectiva a aldehídos;
+HAC46;Haluros de acilo;–COX;Cloruro de isobutirilo;16.55;85.00;;1.11;;7.00;;;Hidruro de diisobutilaluminio;;;;;;;Diclorometano;;;;Baja temperatura (-78°C);Anhidro;Isobutiraldehído;72.11;64.00;;0.79;;15.49;;;Red;Red selectiva a aldehídos;
+HAC47;Haluros de acilo;–COX;Cloruro de 2- metilbutanoilo;12.58;32.00;;1.00;;7.00;;;Hidruro de diisobutilaluminio;;;;;;;Diclorometano;;;;Baja temperatura (-78°C);Anhidro;2-metilbutanal;86.13;91.00;;0.80;;7.00;;;Red;Red selectiva a aldehídos;
+HAC48;Haluros de acilo;–COX;Bromuro de acetilo;122.95;76.00;;1.52;;8.00;;;Hidruro de litio y aluminio;;;;;;;Éter dietílico ;;;;Anhidro / Hidrólisis ácida final;Básico (luego ácido);Etanol;46.70;78.50;;0.79;;15.90;;;Red;Red a alcoholes primarios;
+HAC49;Haluros de acilo;–COX;Bromuro de propionilo;136.97;15.00;;1.55;0.60;7.00;;;Hidruro de litio y aluminio;;;;;;;Éter dietílico ;;;;Anhidro / Hidrólisis ácida final;Básico (luego ácido);1-Propanol;6.10;97.20;;0.81;;16.10;;;Red;Red a alcoholes primarios;
+HAC5;Haluros de acilo;–COX;bromuro de isobutirilo;151.00;117.00;8.00;1.44;0.60;7.00;;;Hidruro de litio y aluminio;;;;;;;Éter dietílico ;;;;Anhidro / Hidrólisis ácida final;Básico (luego ácido);Isobutanol;74.12;18.00;;0.80;;16.10;;;Red;Red a alcoholes primarios;
+HAC51;Haluros de acilo;–COX;Cloruro de acetilo;78.50;52.00;;1.11;;19.30;;;Metanol / DIPEA;DIPEA;;DIPEA (Base de Hünig);;;;Diclorometano;;;;Básico / Anhidro;Básico;Acetato de metilo;74.80;56.80;;0.93;;4.80;;214.00;SN;Alcohólisis (Formación de ésteres);
+HAC52;Haluros de acilo;–COX;Cloruro de propionilo;92.52;77.50;;1.70;;7.00;;;Metanol / DIPEA;DIPEA;;DIPEA (Base de Hünig);;;;Diclorometano;;;;Básico / Anhidro;Básico;Propionato de metilo;88.11;79.80;;0.92;;7.00;;;SN;Alcohólisis (Formación de ésteres);
+HAC53;Haluros de acilo;–COX;Cloruro de isobutirilo;16.55;85.00;;1.11;;7.00;;;Metanol / DIPEA;DIPEA;;DIPEA (Base de Hünig);;;;Diclorometano;;;;Básico / Anhidro;Básico;Isobutirato de metilo;12.13;91.90;;0.88;;7.00;;;SN;Alcohólisis (Formación de ésteres);
+HAC54;Haluros de acilo;–COX;Cloruro de 2- metilbutanoilo;12.58;32.00;;1.00;;7.00;;;Metanol / DIPEA;DIPEA;;DIPEA (Base de Hünig);;;;Diclorometano;;;;Básico / Anhidro;Básico;2-metilbutanoato de metilo;116.16;115.60;;0.89;;7.00;;;SN;Alcohólisis (Formación de ésteres);
+HAC55;Haluros de acilo;–COX;Yoduro de acetilo;169.95;18.00;;2.19;0.60;7.00;;;;;;;;;;Tolueno;;;;Medio orgánico aromático aprotótico neutro;Neutro;2. 3- butano diona (8CI. 9CI. ACI);86.90;88.00;;0.99;;7.00;;;SN;Acoplamiento de haluros de acilo a 1.2-dicetonas;
+HAC56;Haluros de acilo;–COX;Yoduro de propionilo;183.98;75.00;;1.96;0.60;7.00;;;;;;;;;;;;;;Medio puro anhidro;Neutro;1- pentanol. 5- yodo- . 1- propanoato (ACI);27.11;255.25;23.00;1.48;0.60;7.00;;;SN;Alcoholismo de haluros de acilo y análogos;
+HAC57;Haluros de acilo;–COX;Yoduro de isobutirilo;198.00;43.50;;1.79;0.60;7.00;;;;;;;;;;"	
+metanol";Diclorometano;;;Medio orgánico alcohólico con solvolisis ácida in situ;Acido;amida de propano .norte- (4- hidroxifenil ) - 2- metil- (9CI. ACI);179.22;386.48;25.00;1.16;0.60;1.11;0.26;;SN;Acilación de nucleófilos de nitrógeno mediante haluros de acilo/tioacilo/carbamoilo y análogos.;
+HAC58;Haluros de acilo;–COX;Yoduro de acetilo;169.95;18.00;;2.19;0.60;7.00;;;Trietilamina;;;;;;;Éter dietílico;;;;Anhidro;Básico (No nucleofílico);Etenona (Cetena);42.40;-56.00;;0.71;0.60;7.00;;;E;Síntesis de cetenas;
+HAC59;Haluros de acilo;–COX;Yoduro de propionilo;183.98;75.00;;1.96;0.60;7.00;;;Trietilamina;;;;;;;Éter dietílico;;;;Anhidro;Básico (No nucleofílico);Metilcetena;56.60;-56.00;;0.76;0.60;7.00;;;E;Síntesis de cetenas;
+HAC6;Haluros de acilo;–COX;Yoduro de isobutirilo;198.00;43.50;;1.79;0.60;7.00;;;Trietilamina;;;;;;;Éter dietílico;;;;Anhidro;Básico (No nucleofílico);Dimetilcetena;7.90;34.00;;0.78;0.60;7.00;;;E;Síntesis de cetenas;
+NIT1;Nitrilos;–C≡N;Etanonitrilo;41.50;81.60;;0.79;;32.00;;;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido etanooico;6.50;117.90;;1.40;;4.76;;;AE;Hidrólisis Ácida;
+NIT2;Nitrilos;–C≡N;Propanonitrilo;55.80;97.20;;0.78;;32.50;;;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido propanooico;74.80;141.10;;0.99;;4.86;;164.00;AE;Hidrólisis Ácida;
+NIT3;Nitrilos;–C≡N;Butanonitrilo;69.11;117.50;;0.81;;7.00;;;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido butanooico;88.11;165.50;;0.96;;4.83;;;AE;Hidrólisis Ácida;
+NIT4;Nitrilos;–C≡N;Pentanonitrilo;83.13;139.00;;0.78;;7.00;;;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido pentanooico;12.13;186.50;;0.94;;4.83;;;AE;Hidrólisis Ácida;
+NIT5;Nitrilos;–C≡N;Hexanonitrilo;97.16;163.00;;0.80;;7.00;;;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido hexanooico;116.16;25.80;;0.93;;4.85;;;AE;Hidrólisis Ácida;
+NIT6;Nitrilos;–C≡N;Heptanonitrilo;111.19;18.00;;0.81;0.60;7.00;;;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido heptanooico;13.19;222.20;;0.92;;4.89;;;AE;Hidrólisis Ácida;
+NIT7;Nitrilos;–C≡N;Octanonitrilo;125.21;25.00;;0.82;;7.00;;;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido octanooico;144.21;239.70;;0.91;;4.89;;;AE;Hidrólisis Ácida;
+NIT8;Nitrilos;–C≡N;2-Metilpropanonitrilo;69.11;13.90;;0.77;;19.20;;;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido 2-metilpropanooico;88.11;153.50;;0.95;;4.84;;;AE;Hidrólisis Ácida;
+NIT9;Nitrilos;–C≡N;3-Metilbutanonitrilo;83.13;57.00;;0.80;;7.00;;;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido 3-metilbutanooico;12.13;176.50;;0.93;;4.77;;;AE;Hidrólisis Ácida;
+NIT1;Nitrilos;–C≡N;Bencenocarbonitrilo;13.12;19.70;;1.10;;7.20;;8.00;Hidrólisis Ácida;;;Ion Hidronio;;;;Agua;;;;Ácido Fuerte;Calor / Reflujo;Ácido benzoico;122.12;249.20;;1.27;;4.20;;;AE;Hidrólisis Ácida;
+NIT11;Nitrilos;–C≡N;Etanonitrilo;41.50;81.60;;0.79;;32.00;;;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;Acetato de sodio;83.40;324.00;;1.53;;4.76;;;AE;Hidrólisis Básica;
+NIT12;Nitrilos;–C≡N;Propanonitrilo;55.80;97.20;;0.78;;32.50;;;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;Propionato de sodio;97.70;;;;;4.87;;;AE;Hidrólisis Básica;
+NIT13;Nitrilos;–C≡N;Butanonitrilo;69.11;117.50;;0.81;;7.00;;;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;Butirato de sodio;111.10;;;;;7.00;;;AE;Hidrólisis Básica;
+NIT14;Nitrilos;–C≡N;Pentanonitrilo;83.13;139.00;;0.78;;7.00;;;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;Pentanooato de sodio;125.12;;;;;4.81;;;AE;Hidrólisis Básica;
+NIT15;Nitrilos;–C≡N;Hexanonitrilo;97.16;163.00;;0.80;;7.00;;;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;Hexanooato de sodio;139.15;;;;;7.00;;;AE;Hidrólisis Básica;
+NIT16;Nitrilos;–C≡N;Heptanonitrilo;111.19;18.00;;0.81;0.60;7.00;;;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;Heptanooato de sodio;153.17;;;1.20;;7.00;;;AE;Hidrólisis Básica;
+NIT17;Nitrilos;–C≡N;Octanonitrilo;125.21;25.00;;0.82;;7.00;;;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;Octanooato de sodio;167.20;;;;;7.00;;;AE;Hidrólisis Básica;
+NIT18;Nitrilos;–C≡N;2-Metilpropanonitrilo;69.11;13.90;;0.77;;19.20;;;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;2-Metilpropanooato de sodio;111.10;;;;;4.69;;;AE;Hidrólisis Básica;
+NIT19;Nitrilos;–C≡N;3-Metilbutanonitrilo;83.13;57.00;;0.80;;7.00;;;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;3-Metilbutanooato de sodio;125.12;;;;;7.00;;;AE;Hidrólisis Básica;
+NIT2;Nitrilos;–C≡N;Bencenocarbonitrilo;13.12;19.70;;1.10;;7.20;;8.00;Hidrólisis Básica;;;Ion Hidroxilo;;;; Etanol;;;;Básico Fuerte;Calor / Reflujo;Benzoato de sodio;145.11;;;0.10;;4.19;;;AE;Hidrólisis Básica;
+NIT31;Nitrilos;–C≡N;Etanonitrilo;41.50;81.60;;0.79;;32.00;;;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;2- Propanona;58.80;56.00;;0.79;;26.50;;;SN;Reacción de Grignard;
+NIT32;Nitrilos;–C≡N;Propanonitrilo;55.80;97.20;;0.78;;32.50;;;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;2-Butanona;72.11;79.60;;0.81;;24.40;;;SN;Reacción de Grignard;
+NIT33;Nitrilos;–C≡N;Butanonitrilo;69.11;117.50;;0.81;;7.00;;;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;2-pentanona;86.13;11.70;;0.81;;7.00;;37.00;SN;Reacción de Grignard;
+NIT34;Nitrilos;–C≡N;Pentanonitrilo;83.13;139.00;;0.78;;7.00;;;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;2-Hexanona;1.16;127.60;;0.81;;7.00;;;SN;Reacción de Grignard;
+NIT35;Nitrilos;–C≡N;Hexanonitrilo;97.16;163.00;;0.80;;7.00;;;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;2- Heptanona;114.19;111.00;;0.81;;7.00;;;SN;Reacción de Grignard;
+NIT36;Nitrilos;–C≡N;Heptanonitrilo;111.19;18.00;;0.81;0.60;7.00;;;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;2- Octanona;128.21;172.50;;0.82;;7.00;;;SN;Reacción de Grignard;
+NIT37;Nitrilos;–C≡N;Octanonitrilo;125.21;25.00;;0.82;;7.00;;;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;2- Nonanona;142.24;194.00;;0.83;;7.00;;;SN;Reacción de Grignard;
+NIT38;Nitrilos;–C≡N;2-Metilpropanonitrilo;69.11;13.90;;0.77;;19.20;;;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;3- metil- 2- butanona;86.13;93.00;;0.80;;2.33;;;SN;Reacción de Grignard;
+NIT39;Nitrilos;–C≡N;3-Metilbutanonitrilo;83.13;57.00;;0.80;;7.00;;;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;metil isobutil cetona;1.16;115.80;;0.80;;7.00;;;SN;Reacción de Grignard;
+NIT4;Nitrilos;–C≡N;Bencenocarbonitrilo;13.12;19.70;;1.10;;7.20;;8.00;Reacción de Grignard;;;Magnesio;;;;Tetrahidrofurano ;Eter;;;Anhidro;Seguido de H3O+;Acetofenona;12.15;22.00;;1.30;;-6.20;;;SN;Reacción de Grignard;
+NIT21;Nitrilos;–C≡N;Etanonitrilo;41.50;81.60;;0.79;;32.00;;;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);Etanoamina;45.80;16.60;;0.69;;1.67;;;Red;Red con LiAlH4;
+NIT22;Nitrilos;–C≡N;Propanonitrilo;55.80;97.20;;0.78;;32.50;;;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);Propanoamina;59.11;48.50;;0.72;;1.53;;58.00;Red;Red con LiAlH4;
+NIT23;Nitrilos;–C≡N;Butanonitrilo;69.11;117.50;;0.81;;7.00;;;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);1-Butanamine;73.14;78.00;;0.73;;1.60;;59.00;Red;Red con LiAlH4;
+NIT24;Nitrilos;–C≡N;Pentanonitrilo;83.13;139.00;;0.78;;7.00;;;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);Pentanoamina;87.16;14.00;;0.75;;1.60;;;Red;Red con LiAlH4;
+NIT25;Nitrilos;–C≡N;Hexanonitrilo;97.16;163.00;;0.80;;7.00;;;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);1-Hexanoamina;11.19;131.50;;0.77;;1.56;;;Red;Red con LiAlH4;
+NIT26;Nitrilos;–C≡N;Heptanonitrilo;111.19;18.00;;0.81;0.60;7.00;;;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);1- Heptanamina;115.22;155.00;;0.77;;1.66;;;Red;Red con LiAlH4;
+NIT27;Nitrilos;–C≡N;Octanonitrilo;125.21;25.00;;0.82;;7.00;;;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);Octanoamina;129.24;176.00;;0.77;;1.65;;;Red;Red con LiAlH4;
+NIT28;Nitrilos;–C≡N;2-Metilpropanonitrilo;69.11;13.90;;0.77;;19.20;;;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);2-Metilpropanoamina;73.14;68.50;;0.72;;1.60;;;Red;Red con LiAlH4;
+NIT29;Nitrilos;–C≡N;3-Metilbutanonitrilo;83.13;57.00;;0.80;;7.00;;;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);Isopentilamina​;87.16;9.50;;0.81;;1.60;;;Red;Red con LiAlH4;
+NIT3;Nitrilos;–C≡N;Bencenocarbonitrilo;13.12;19.70;;1.10;;7.20;;8.00;Red con LiAlH4;;;;;;;Éter dietílico;;;;Anhidro / Inerte;Seguido de hidrólisis (H2O);Bencilamina;17.15;185.00;;0.98;;9.30;;7.00;Red;Red con LiAlH4;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
