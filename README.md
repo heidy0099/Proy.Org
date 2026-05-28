@@ -3,7 +3,7 @@
 
 ## 📂 Descripción Detallada de Carpetas y Archivos
 
-### 1. 📄 **README.md**
+### 1. **README.md**
 - **Contenido:** Documentación principal del proyecto
 - **Propósito:** Guía completa para entender, navegar y ejecutar el proyecto
 - **Incluye:** Objetivos, estructura, instrucciones de uso y análisis esperados
