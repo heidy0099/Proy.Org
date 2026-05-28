@@ -97,7 +97,7 @@ A continuación se presentan los **11 análisis gráficos** realizados, su prop�
 | 2 | **Grupo Funcional** | **PE_Sustrato** | **Comparar Fuerzas Intermoleculares por Familia:** Permite analizar por qué compuestos con pesos similares tienen ebulliciones tan distintas. Demuestra que las amidas hierven a mayor temperatura que los nitrilos porque forman redes de **puentes de hidrógeno**, mientras que los nitrilos solo experimentan fuerzas dipolo-dipolo. | 📦 Gráfico de Cajas (Boxplot) |
 | 3 | **Grupo Funcional** | **pKa_Sustrato** | **Analizar la Reactividad y Estabilidad por Resonancia:** Evalúa la acidez relativa de los sustratos. Valores altos de pKa en amidas demuestran que el par de electrones del nitrógeno está deslocalizado por el grupo carbonilo (C=O), explicando por qué son los derivados de ácido más estables y menos reactivos. | 📊 Gráfico de Barras |
 | 4 | **Grupo Funcional** | **LD50_Sustrato** | **Evaluación de Riesgo Ambiental y Toxicidad:** Clasifica el perfil de peligro biológico de las familias químicas en el laboratorio. Permite discutir los riesgos de manejo (como la potencial liberación metabólica de iones cianuro CN⁻ en ciertos nitrilos) frente a la estabilidad de las amidas. | 📊 Gráfico de Barras |
-| 5 | **Grupo Funcional** | **Conteo** | **Análisis de Distribución de la Muestra:** Sirve para caracterizar la base de datos del proyecto. Muestra visualmente la cantidad de muestras y la representatividad (porcentaje de participación) de cada familia química dentro del estudio. | 🥧 Gráfico de Barras o Torta |
+
 
 ---
 
