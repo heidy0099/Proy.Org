@@ -15,19 +15,19 @@
 - TEMP: Temperatura
 - Nmed: Nombre del medio
 - Med: Medio
-- NP: Número del producto
+- NP: Nombre del producto
 
 === PRODUCTO (Derivado sintetizado) ===
 - PMP: Peso Molecular del Producto
 - PEP: Punto de Ebullición del Producto
-- IPEP: Índice de incertidumbre del Producto
+- IPEP: incertidumbre punto de ebullicion del Producto
 - DP: Densidad del Producto
-- IDP: Índice de refracción
+- IDP: incertidumbre de la densidad del producto
 - pKa P: Constante de acidez del Producto
-- I pKa P: Índice pKa del Producto
+- I pKa P: incertidumbre pKa del Producto
 - LD5 P: Dosis letal 5% del Producto
 - TR: Tipo de reaccion
-- NR: Nombre de raccion
+- NR: Nombre de reaccion
 
 
 
