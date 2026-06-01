@@ -1,6 +1,6 @@
 # 📊 PROYECTO 3: DERIVADOS DE ÁCIDOS - ANÁLISIS DE REACCIONES QUÍMICAS
 
-[![Open in Colab](https://colab.research.google.com/drive/1FuHJ27pCGQgFx_7RY3NCXEIRWumjVu56?usp=sharing#scrollTo=UCZap306Yy1n)
+[![Open in Colab]
 
 ## 📌 Descripción General del Proyecto
 
