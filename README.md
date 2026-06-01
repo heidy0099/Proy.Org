@@ -6,11 +6,11 @@ Este proyecto comprende el estudio sistemático de **240 reacciones químicas** 
 
 | Grupo Funcional | Código | Cantidad |
 |:----------------|:------:|---------:|
-| Nitrilos | NITr | 40 |
-| Haluros de acilo | HAC | 60 |
-| Anhídridos | ANH | 20 |
-| Ésteres | EST | 60 |
-| Amidas | AMD | 60 |
+| Nitrilos | 'NIT' | 40 |
+| Haluros de acilo | 'HAC' | 60 |
+| Anhídridos | 'ANH' | 20 |
+| Ésteres | 'EST' | 60 |
+| Amidas | 'AMD' | 60 |
 
 El objetivo principal es analizar propiedades fisicoquímicas, caracterizar productos y reactivos, y visualizar patrones mediante herramientas computacionales.
 
