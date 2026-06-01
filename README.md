@@ -1,5 +1,7 @@
 # 📊 PROYECTO 3: DERIVADOS DE ÁCIDOS - ANÁLISIS DE REACCIONES QUÍMICAS
 
+[![Open in Colab](https://colab.research.google.com/drive/1FuHJ27pCGQgFx_7RY3NCXEIRWumjVu56?usp=sharing#scrollTo=UCZap306Yy1n)
+
 ## 📌 Descripción General del Proyecto
 
 Este proyecto comprende el estudio sistemático de **240 reacciones químicas** de derivados de ácidos, incluyendo:
