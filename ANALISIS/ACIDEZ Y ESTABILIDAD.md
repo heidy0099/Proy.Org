@@ -1,6 +1,6 @@
 ## 📊 Análisis: pKa por Grupo Funcional
 
-![Gráfico pKa por Grupo Funcional](pKa_grupos.png)
+![Gráfico pKa por Grupo Funcional]([pKa_grupos.png](https://github.com/heidy0099/Proy.Org/blob/main/acidez_y_estabilidad.png))
 
 ### 📝 Análisis
 
