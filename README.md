@@ -6,7 +6,7 @@ Este proyecto comprende el estudio sistemático de **240 reacciones químicas** 
 
 | Grupo Funcional | Código | Cantidad |
 |:----------------|:------:|---------:|
-| Nitrilos |NIT| 40 |
+| Nitrilos |Nit| 40 |
 | Haluros de acilo | HAC | 60 |
 | Anhídridos | ANH | 20 |
 | Ésteres | EST | 60 |
